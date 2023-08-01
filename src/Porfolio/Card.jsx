@@ -7,6 +7,7 @@ import {
   Flex,
   Heading,
   Image,
+  Link,
   Stack,
   Text,
   VStack,
@@ -16,8 +17,9 @@ import {
 } from "@chakra-ui/react";
 
 export default function Card() {
+  const emailAddress = "olaecheamariajose@gmail.com";
   return (
-    <VStack marginTop={"5"}>
+    <VStack >
       <Stack
         flex={1}
         flexDirection="column"
@@ -30,16 +32,16 @@ export default function Card() {
           <Text textTransform="uppercase">Full Stack Developer</Text>
         </Heading>
         <Avatar
-        // borderRadius={"lg"}
-       
-        size="2xl"
-        name="Maria Jose"
-        justifyContent="center"
-        alignItems="center"
-        src={
-          "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
-        }
-      />
+          // borderRadius={"lg"}
+
+          size="2xl"
+          name="Maria Jose"
+          justifyContent="center"
+          alignItems="center"
+          src={
+            "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
+          }
+        />
         <Heading fontSize={"2xl"} fontFamily={"body"} color={"white"}>
           Maria Jose Olaechea
         </Heading>
@@ -65,19 +67,29 @@ export default function Card() {
             rounded={"full"}
             variant="outline"
             color={"white"}
+            as="a"
+            target="_blank"
+            onClick={() => (window.location.href = `mailto:${emailAddress}`)}
           >
-            Message
+            Email
           </Button>
+
           <Button
+            as="a"
+            href="https://www.linkedin.com/in/mjolaechea/"
+            target="_blank"
             flex={1}
             fontSize={"sm"}
             rounded={"full"}
             variant="outline"
             color={"white"}
           >
-            Linkedin
+            LinkedIn
           </Button>
           <Button
+            as="a"
+            href="https://github.com/OLAEMJO8"
+            target="_blank"
             flex={1}
             fontSize={"sm"}
             rounded={"full"}
@@ -87,13 +99,16 @@ export default function Card() {
             GitHub
           </Button>
           <Button
+            as="a"
+            href="https://www.soyhenry.com/"
+            target="_blank"
             flex={1}
             fontSize={"sm"}
             rounded={"full"}
             variant="outline"
             color={"white"}
           >
-            Henry Talent
+            Henry
           </Button>
         </Stack>
       </Stack>

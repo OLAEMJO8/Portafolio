@@ -8,6 +8,7 @@ import {
   Tooltip,
   Center,
   Icon,
+  Text,
 } from "@chakra-ui/react";
 
 import { FaPeopleCarry } from "react-icons/fa";
@@ -17,6 +18,8 @@ import { HiPresentationChartBar } from "react-icons/hi";
 import { AiFillCompass } from "react-icons/ai";
 import { PiFire } from "react-icons/pi";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { FaComments } from "react-icons/fa";
+import { MdOutlineEmojiObjects } from "react-icons/md";
 
 function SoftSkills() {
   const technologies = [
@@ -28,11 +31,13 @@ function SoftSkills() {
     { icon: PiFire, name: "Apasionada" },
     { icon: AiFillCompass, name: "Resiliencia" },
     { icon: VscWorkspaceTrusted, name: "Responsabilidad" },
+
+    { icon: MdOutlineEmojiObjects, name: "Inteligencia Emocional" },
   ];
 
   return (
     <Center py="8">
-      <Box maxW="800px" w="100%">
+      <Box maxW="900px" w="100%">
         <Divider mb="4" maxW="50%" mx="auto" />
         <VStack spacing="4">
           <Heading
@@ -46,13 +51,23 @@ function SoftSkills() {
           >
             Soft Skills
           </Heading>
+          <Text textAlign="center" mb="8">
+            Estas soft skills me han permitido crecer como profesional y
+            contribuir en los proyectos que he participado. Siempre estoy
+            buscando oportunidades para mejorar y seguir desarrollando estas
+            habilidades en mi carrera.
+          </Text>
         </VStack>
         <br />
         <VStack spacing="8" alignItems="center">
-          <HStack spacing={{ base: "8", md: "24" }} flexWrap="wrap">
+          <HStack
+            spacing={{ base: "8", md: "24" }}
+            justify="center"
+            flexWrap="wrap"
+          >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
-                <Box as="button" _hover={{ transform: "scale(1.1)" }}>
+                <Box as="button" _hover={{ transform: "scale(1.1)" }} w="25%">
                   <Icon as={IconComponent} boxSize="50" />
                 </Box>
               </Tooltip>

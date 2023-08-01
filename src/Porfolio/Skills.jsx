@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Box,
   VStack,
@@ -11,9 +12,19 @@ import {
   Icon,
 } from "@chakra-ui/react";
 
-import { FaReact, FaJs, FaHtml5, FaCss3, FaNode, FaDatabase, FaCode, FaFire, FaGithub } from "react-icons/fa";
+import {
+  FaReact,
+  FaJs,
+  FaHtml5,
+  FaCss3,
+  FaNode,
+  FaDatabase,
+  FaCode,
+  FaFire,
+} from "react-icons/fa";
 
-import { SiTailwindcss , SiChakraui} from "react-icons/si";
+import { SiTailwindcss, SiChakraui } from "react-icons/si";
+
 function Skills() {
   const technologies = [
     { icon: FaReact, name: "React" },
@@ -25,7 +36,7 @@ function Skills() {
     { icon: FaDatabase, name: "PostgreSQL" },
     { icon: SiChakraui, name: "Chakraui" },
     { icon: SiTailwindcss, name: "Tailwindcss" },
-    { icon: FaGithub, name: "GitHub" },
+
     { icon: FaFire, name: "Firebase" },
   ];
 
@@ -54,11 +65,15 @@ function Skills() {
           </Text>
         </VStack>
         <br />
-        <VStack spacing="8" alignItems="center">
-          <HStack spacing={{ base: "8", md: "24" }} flexWrap="wrap">
+        <VStack spacing="6" alignItems="center">
+          <HStack
+            spacing={{ base: "8", md: "24" }}
+            justify="center"
+            flexWrap="wrap"
+          >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
-                <Box as="button" _hover={{ transform: "scale(1.1)" }}>
+                <Box as="button" _hover={{ transform: "scale(1.1)" }} w="10%">
                   <Icon as={IconComponent} boxSize="50" />
                 </Box>
               </Tooltip>
