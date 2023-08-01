@@ -23,7 +23,7 @@ export default function Card() {
   return (
     <Center py="8">
       <Box maxW="900px" w="100%">
-        <Divider mt="4" mb="4" maxW="50%" mx="auto" />
+      
         <VStack spacing={4} maxW="900px">
           <Heading
             fontSize={{ base: "4xl", md: "6xl" }}
