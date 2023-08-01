@@ -45,7 +45,7 @@ const Porfolio = () => {
       <Box marginTop={10}>
         <SoftSkills />
       </Box>
-      <Box marginTop={10}>
+      <Box>
         <Proyectos />
       </Box>
       {showScroll && (

@@ -23,12 +23,17 @@ export default function Card() {
   return (
     <Center py="8">
       <Box maxW="900px" w="100%">
-      
-        <VStack spacing={4} maxW="900px">
+        <VStack
+          spacing={4}
+          maxW="900px"
+          justifyContent="center"
+          alignItems="center"
+        >
           <Heading
-            fontSize={{ base: "4xl", md: "6xl" }}
-            fontFamily={"body"}
+            fontSize={{ base: "4xl", md: "7xl" }}
             color={"white"}
+            justifyContent="center"
+            alignItems="center"
           >
             <Text textTransform="uppercase">Full Stack Developer</Text>
           </Heading>

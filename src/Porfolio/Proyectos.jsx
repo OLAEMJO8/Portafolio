@@ -15,7 +15,7 @@ import {
 export default function Proyectos() {
   return (
     <Center py={6}>
-      <Box maxW={"900px"} w={"full"}>
+      <Box maxW={"1000px"} w={"full"} >
         <Divider mb="6" maxW="50%" mx="auto" />
         <Heading
           as="h2"
@@ -39,7 +39,8 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "650px" }}
+              h={{ base: "400px", md: "650px" }}
+              
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -98,7 +99,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "650px" }}
+              h={{ base: "400px", md: "650px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -159,7 +160,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "650px" }}
+              h={{ base: "400px", md: "650px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
