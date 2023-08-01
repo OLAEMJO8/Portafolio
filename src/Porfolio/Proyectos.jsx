@@ -14,7 +14,7 @@ export default function Proyectos() {
   return (
     <Center py={6}>
       <Box maxW={"300px"} w={"full"}>
-      <Divider mb="4" maxW="50%" mx="auto" />
+      <Divider mb="6" maxW="50%" mx="auto" />
         <Heading
           as="h2"
           size="xl"
@@ -34,7 +34,7 @@ export default function Proyectos() {
           rounded={"md"}
           p={6}
           overflow={"hidden"}
-          marginTop={5}
+          marginTop={7}
         >
           <Box
             h={"150px"} 
@@ -64,7 +64,7 @@ export default function Proyectos() {
               PROFINDER
             </Text>
             <Heading
-              color={useColorModeValue("gray.700", "white")}
+             color={"white"}
               fontSize={"xl"}
               fontFamily={"body"}
             >
