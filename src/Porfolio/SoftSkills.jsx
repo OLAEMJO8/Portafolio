@@ -51,7 +51,7 @@ function SoftSkills() {
           >
             Soft Skills
           </Heading>
-          <Text textAlign="center" mb="8">
+          <Text textAlign="center" mb="8" color="white" >
             Estas soft skills me han permitido crecer como profesional y
             contribuir en los proyectos que he participado. Siempre estoy
             buscando oportunidades para mejorar y seguir desarrollando estas
@@ -68,7 +68,7 @@ function SoftSkills() {
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
                 <Box as="button" _hover={{ transform: "scale(1.1)" }} w="25%">
-                  <Icon as={IconComponent} boxSize="50" />
+                  <Icon as={IconComponent} boxSize="50" color="white" />
                 </Box>
               </Tooltip>
             ))}

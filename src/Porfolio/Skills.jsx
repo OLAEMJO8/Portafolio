@@ -56,7 +56,7 @@ function Skills() {
           >
             Tech Skills
           </Heading>
-          <Text textAlign="center" mb="8">
+          <Text textAlign="center" mb="8" color="white" >
             HTML, CSS y JavaScript, React JS, Vue JS, Express JS, Redux, Redux
             Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL
             (PostgreSQL).
@@ -74,7 +74,7 @@ function Skills() {
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
                 <Box as="button" _hover={{ transform: "scale(1.1)" }} w="10%">
-                  <Icon as={IconComponent} boxSize="50" />
+                  <Icon as={IconComponent} boxSize="50" color="white"  />
                 </Box>
               </Tooltip>
             ))}
