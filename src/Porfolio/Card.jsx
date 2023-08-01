@@ -1,9 +1,11 @@
 import {
   Avatar,
   Badge,
+  Box,
   Button,
   Center,
   Container,
+  Divider,
   Flex,
   Heading,
   Image,
@@ -19,99 +21,109 @@ import {
 export default function Card() {
   const emailAddress = "olaecheamariajose@gmail.com";
   return (
-    <VStack >
-      <Stack
-        flex={1}
-        flexDirection="column"
-        justifyContent="center"
-        alignItems="center"
-        p={1}
-        pt={2}
-      >
-        <Heading fontSize={"6xl"} fontFamily={"body"} color={"white"}>
-          <Text textTransform="uppercase">Full Stack Developer</Text>
-        </Heading>
-        <Avatar
-          // borderRadius={"lg"}
+    <Center py="8">
+      <Box maxW="900px" w="100%">
+        <Divider mt="4" mb="4" maxW="50%" mx="auto" />
+        <VStack spacing={4} maxW="900px">
+          <Heading
+            fontSize={{ base: "4xl", md: "6xl" }}
+            fontFamily={"body"}
+            color={"white"}
+          >
+            <Text textTransform="uppercase">Full Stack Developer</Text>
+          </Heading>
+          <Avatar
+            size={{ base: "lg", md: "2xl" }}
+            name="Maria Jose"
+            justifyContent="center"
+            alignItems="center"
+            src={
+              "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
+            }
+          />
+          <Heading
+            fontSize={{ base: "xl", md: "2xl" }}
+            fontFamily={"body"}
+            color={"white"}
+          >
+            Maria Jose Olaechea
+          </Heading>
+          <Text
+            fontWeight={600}
+            color={"white"}
+            fontSize={{ base: "sm", md: "md" }}
+            mb={4}
+          >
+            olaecheamariajose@gmail.com
+          </Text>
+          <Text textAlign={"center"} color={"white"} px={{ base: 3, md: 6 }}>
+            Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS ||
+            Node.js || Express.js || SQL || PostgreSQL || Sequelize
+          </Text>
 
-          size="2xl"
-          name="Maria Jose"
-          justifyContent="center"
-          alignItems="center"
-          src={
-            "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
-          }
-        />
-        <Heading fontSize={"2xl"} fontFamily={"body"} color={"white"}>
-          Maria Jose Olaechea
-        </Heading>
-        <Text fontWeight={600} color={"white"} size="sm" mb={4}>
-          olaecheamariajose@gmail.com
-        </Text>
-        <Text textAlign={"center"} color={"white"} px={3}>
-          Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS || Node.js
-          || Express.js || SQL || PostgreSQL || Sequelize
-        </Text>
+          <Stack
+            width={"100%"}
+            mt={"2rem"}
+            direction={{ base: "column", md: "row" }}
+            padding={2}
+            justifyContent={"space-between"}
+            alignItems={{ base: "center", md: "flex-start" }}
+          >
+            <Button
+              flex={1}
+              fontSize={{ base: "sm", md: "md" }}
+              rounded={"full"}
+              variant="outline"
+              color={"white"}
+              as="a"
+              target="_blank"
+              onClick={() => (window.location.href = `mailto:${emailAddress}`)}
+            >
+              Email
+            </Button>
 
-        <Stack
-          width={"100%"}
-          mt={"2rem"}
-          direction={"row"}
-          padding={2}
-          justifyContent={"space-between"}
-          alignItems={"center"}
-        >
-          <Button
-            flex={1}
-            fontSize={"sm"}
-            rounded={"full"}
-            variant="outline"
-            color={"white"}
-            as="a"
-            target="_blank"
-            onClick={() => (window.location.href = `mailto:${emailAddress}`)}
-          >
-            Email
-          </Button>
-
-          <Button
-            as="a"
-            href="https://www.linkedin.com/in/mjolaechea/"
-            target="_blank"
-            flex={1}
-            fontSize={"sm"}
-            rounded={"full"}
-            variant="outline"
-            color={"white"}
-          >
-            LinkedIn
-          </Button>
-          <Button
-            as="a"
-            href="https://github.com/OLAEMJO8"
-            target="_blank"
-            flex={1}
-            fontSize={"sm"}
-            rounded={"full"}
-            variant="outline"
-            color={"white"}
-          >
-            GitHub
-          </Button>
-          <Button
-            as="a"
-            href="https://www.soyhenry.com/"
-            target="_blank"
-            flex={1}
-            fontSize={"sm"}
-            rounded={"full"}
-            variant="outline"
-            color={"white"}
-          >
-            Henry
-          </Button>
-        </Stack>
-      </Stack>
-    </VStack>
+            <Button
+              as="a"
+              href="https://www.linkedin.com/in/mjolaechea/"
+              target="_blank"
+              flex={1}
+              fontSize={{ base: "sm", md: "md" }}
+              rounded={"full"}
+              variant="outline"
+              color={"white"}
+              mt={{ base: 4, md: 0 }}
+            >
+              LinkedIn
+            </Button>
+            <Button
+              as="a"
+              href="https://github.com/OLAEMJO8"
+              target="_blank"
+              flex={1}
+              fontSize={{ base: "sm", md: "md" }}
+              rounded={"full"}
+              variant="outline"
+              color={"white"}
+              mt={{ base: 4, md: 0 }}
+            >
+              GitHub
+            </Button>
+            <Button
+              as="a"
+              href="https://www.soyhenry.com/"
+              target="_blank"
+              flex={1}
+              fontSize={{ base: "sm", md: "md" }}
+              rounded={"full"}
+              variant="outline"
+              color={"white"}
+              mt={{ base: 4, md: 0 }}
+            >
+              Henry
+            </Button>
+          </Stack>
+        </VStack>
+      </Box>
+    </Center>
   );
 }

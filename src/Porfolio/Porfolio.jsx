@@ -17,53 +17,18 @@ const Porfolio = () => {
       minH="100vh"
       display="flex"
       flexDirection="column"
+      py={{ base: 4, md: 10 }}
     >
-   
-      <Box
-        flex="1"
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        minHeight="100vh"  
-      >
-     
+      <Box marginTop={10}>
         <Card />
       </Box>
-      <Box
-        flex="1"
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        minHeight="100vh"  
-        width="100vw" 
-        maxWidth="100%"  
-        marginTop="15px"  
-      >
+      <Box marginTop={10}>
         <Skills />
       </Box>
-      <Box
-        flex="1"
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        minHeight="100vh"  
-        width="100vw" 
-        maxWidth="100%"  
-        marginTop="15px"  
-      >
+      <Box marginTop={10}>
         <SoftSkills />
       </Box>
-    
-      <Box
-        flex="1"
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-        minHeight="100vh"  
-        width="100vw" 
-        maxWidth="100%"  
-        marginTop="15px"  
-      >
+      <Box marginTop={10}>
         <Proyectos />
       </Box>
     </Box>

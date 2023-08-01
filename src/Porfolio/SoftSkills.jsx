@@ -31,7 +31,6 @@ function SoftSkills() {
     { icon: PiFire, name: "Apasionada" },
     { icon: AiFillCompass, name: "Resiliencia" },
     { icon: VscWorkspaceTrusted, name: "Responsabilidad" },
-
     { icon: MdOutlineEmojiObjects, name: "Inteligencia Emocional" },
   ];
 
@@ -51,7 +50,7 @@ function SoftSkills() {
           >
             Soft Skills
           </Heading>
-          <Text textAlign="center" mb="8" color="white" >
+          <Text textAlign="center" mb="8" color="white">
             Estas soft skills me han permitido crecer como profesional y
             contribuir en los proyectos que he participado. Siempre estoy
             buscando oportunidades para mejorar y seguir desarrollando estas
@@ -59,22 +58,31 @@ function SoftSkills() {
           </Text>
         </VStack>
         <br />
-        <VStack spacing="8" alignItems="center">
+        <VStack spacing="6" alignItems="center">
           <HStack
             spacing={{ base: "8", md: "24" }}
             justify="center"
             flexWrap="wrap"
+            maxW="900px"
+            w="100%"
           >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
-                <Box as="button" _hover={{ transform: "scale(1.1)" }} w="25%">
-                  <Icon as={IconComponent} boxSize="50" color="white" />
+                <Box
+                  as="button"
+                  _hover={{ transform: "scale(1.1)" }}
+                  w={{ base: "20%", sm: "15%", md: "10%" }}
+                >
+                  <Icon
+                    as={IconComponent}
+                    boxSize={{ base: "30px", sm: "40px", md: "50px" }}
+                    color="white"
+                  />
                 </Box>
               </Tooltip>
             ))}
           </HStack>
         </VStack>
-        <Divider mt="4" mb="4" maxW="50%" mx="auto" />
       </Box>
     </Center>
   );

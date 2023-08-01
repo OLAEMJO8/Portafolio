@@ -36,13 +36,12 @@ function Skills() {
     { icon: FaDatabase, name: "PostgreSQL" },
     { icon: SiChakraui, name: "Chakraui" },
     { icon: SiTailwindcss, name: "Tailwindcss" },
-
     { icon: FaFire, name: "Firebase" },
   ];
 
   return (
     <Center py="8">
-      <Box maxW="800px" w="100%">
+      <Box maxW="900px" w="100%">
         <Divider mb="4" maxW="50%" mx="auto" />
         <VStack spacing="4">
           <Heading
@@ -56,7 +55,7 @@ function Skills() {
           >
             Tech Skills
           </Heading>
-          <Text textAlign="center" mb="8" color="white" >
+          <Text textAlign="center" mb="8" color="white">
             HTML, CSS y JavaScript, React JS, Vue JS, Express JS, Redux, Redux
             Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL
             (PostgreSQL).
@@ -70,17 +69,19 @@ function Skills() {
             spacing={{ base: "8", md: "24" }}
             justify="center"
             flexWrap="wrap"
+            maxW="900px"
+            w="100%"
           >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
-                <Box as="button" _hover={{ transform: "scale(1.1)" }} w="10%">
-                  <Icon as={IconComponent} boxSize="50" color="white"  />
+                <Box as="button" _hover={{ transform: "scale(1.1)" }} w={{ base: "20%", sm: "15%", md: "10%" }}>
+                  <Icon as={IconComponent} boxSize={{ base: "30px", sm: "40px", md: "50px" }} color="white" />
                 </Box>
               </Tooltip>
             ))}
           </HStack>
         </VStack>
-        <Divider mt="4" mb="4" maxW="50%" mx="auto" />
+      
       </Box>
     </Center>
   );
