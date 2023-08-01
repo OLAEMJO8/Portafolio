@@ -39,7 +39,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "700px" }}
+              h={{ base: "300px", md: "650px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -98,7 +98,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "700px" }}
+              h={{ base: "300px", md: "650px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -159,7 +159,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "700px" }}
+              h={{ base: "300px", md: "650px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
