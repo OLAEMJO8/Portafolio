@@ -30,18 +30,16 @@ const Porfolio = () => {
     <Box
       backgroundImage={`url(${fondo})`}
       bgSize="cover"
-      bgPosition="center"
+      // bgPosition="center"
       bgRepeat="no-repeat"
-      
       display="flex"
       flexDirection="column"
       // py={{ base: 4, md: 10 }}
     >
       <Card />
 
-      <Box marginTop={10}>
-        <Card2 />
-      </Box>
+      <Card2 />
+
       <Box marginTop={10}>
         <Skills />
       </Box>
@@ -56,7 +54,7 @@ const Porfolio = () => {
           icon={<FaArrowCircleUp />}
           onClick={scrollTop}
           size="lg"
-          colorScheme="white"
+          color={'white'}
           position="fixed"
           bottom="40px"
           right="40px"

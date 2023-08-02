@@ -21,19 +21,19 @@ import {
 export default function Card() {
   return (
     <Center>
-      <Box w="90%">
+      <Box w="100%"  maxW="2000px">
         <VStack>
           <Text
             textTransform="uppercase"
-            fontSize={{ base: "7xl", md: "8xl" }}
+            fontSize={{ base: "7xl", md: "9xl" }}
             color={"white"}
-            // justifyContent="center"
-            textAlign='left'
+            justifyContent="center"
+            textAlign="match-parent"
             fontWeight="bold"
             fontFamily="Lato, sans-serif"
           >
             Full Stack Developer Maria Jose Olaechea ReactJS ReduxJS Tailwind
-            CSS Node.js Express PostgreSQL
+            CSS Node.js 
           </Text>
         </VStack>
       </Box>

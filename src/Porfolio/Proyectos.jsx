@@ -50,7 +50,7 @@ export default function Proyectos() {
                 pos={"relative"}
               >
                 <Image
-                  bg={"gray.900"}
+                  bg={"pink.50"}
                   src={
                     "https://github.com/OLAEMJO8/Portafolio/raw/main/image.png"
                   }
@@ -114,7 +114,7 @@ export default function Proyectos() {
                 pos={"relative"}
               >
                 <Image
-                  bg={"gray.900"}
+                  bg={"pink.50"}
                   src={
                     "https://user-images.githubusercontent.com/110426875/257066093-37c1034b-122a-4613-abf0-d5a70de7e2c9.png"
                   }
@@ -181,7 +181,7 @@ export default function Proyectos() {
                 pos={"relative"}
               >
                 <Image
-                  bg={"gray.900"}
+                  bg={"pink.50"}
                   src={"https://github.com/OLAEMJO8/drivers/raw/main/F1.svg"}
                   alt="Example"
                   w="100%"
