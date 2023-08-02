@@ -6,7 +6,7 @@ export default function Card() {
       <Stack w="100%">
         <Text
           textTransform="uppercase"
-          fontSize={{ base: "8xl", md: "10.5rem" }}
+          fontSize={{ base: "7.5xl", md: "10.5rem" }}
           color={"white"}
           justifyContent="center"
           textAlign="left"
