@@ -15,7 +15,7 @@ import {
 export default function Proyectos() {
   return (
     <Center py={6}>
-      <Box maxW={"1000px"} w={"full"} >
+      <Box maxW={"900px"} w={"full"}>
         <Divider mb="6" maxW="50%" mx="auto" />
         <Heading
           as="h2"
@@ -25,10 +25,11 @@ export default function Proyectos() {
           bgClip="text"
           textTransform="uppercase"
           color={"white"}
+          fontFamily="Lato, sans-serif"
         >
           Proyectos
         </Heading>
-        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
+        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}> 
           <Link
             as="a"
             href="https://github.com/OLAEMJO8/Portafolio"
@@ -40,7 +41,6 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "400px", md: "650px" }}
-              
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -62,22 +62,27 @@ export default function Proyectos() {
               </Box>
               <Stack>
                 <Text
-                  color={"green.500"}
+                  color={"purple.200"}
                   textTransform={"uppercase"}
                   fontWeight={800}
                   fontSize={{ base: "md", md: "lg" }}
                   letterSpacing={1.1}
+                  fontFamily="Lato, sans-serif"
                 >
                   PORTAFOLIO
                 </Text>
                 <Heading
                   color={"white"}
                   fontSize={{ base: "xl", md: "2xl" }}
-                  fontFamily={"body"}
+                  fontFamily="Lato, sans-serif"
                 >
                   Portafolio personal
                 </Heading>
-                <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
+                <Text
+                  fontFamily="Lato, sans-serif"
+                  color={"white"}
+                  fontSize={{ base: "sm", md: "md" }}
+                >
                   Este portafolio cuenta un poco de mi, mis skills, mis
                   proyectos y podras ver un poco de mi ultimo trabajo
                   actualmente.
@@ -121,9 +126,10 @@ export default function Proyectos() {
               </Box>
               <Stack>
                 <Text
-                  color={"green.500"}
+                  color={"purple.200"}
                   textTransform={"uppercase"}
                   fontWeight={800}
+                  fontFamily="Lato, sans-serif"
                   fontSize={{ base: "md", md: "lg" }}
                   letterSpacing={1.1}
                 >
@@ -132,11 +138,15 @@ export default function Proyectos() {
                 <Heading
                   color={"white"}
                   fontSize={{ base: "xl", md: "2xl" }}
-                  fontFamily={"body"}
+                  fontFamily="Lato, sans-serif"
                 >
                   Proyecto Final bootcamp Henry
                 </Heading>
-                <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
+                <Text
+                  color={"white"}
+                  fontFamily="Lato, sans-serif"
+                  fontSize={{ base: "sm", md: "md" }}
+                >
                   Profinder es una plataforma innovadora que permite a los
                   usuarios prestadores de servicios publicar sus servicios y
                   ofrecerlos dentro de diversas categorías en diferentes zonas
@@ -181,18 +191,19 @@ export default function Proyectos() {
               </Box>
               <Stack>
                 <Text
-                  color={"green.500"}
+                  color={"purple.200"}
                   textTransform={"uppercase"}
                   fontWeight={800}
                   fontSize={{ base: "md", md: "lg" }}
                   letterSpacing={1.1}
+                  fontFamily="Lato, sans-serif"
                 >
                   Drivers
                 </Text>
                 <Heading
                   color={"white"}
                   fontSize={{ base: "xl", md: "2xl" }}
-                  fontFamily={"body"}
+                  fontFamily="Lato, sans-serif"
                 >
                   Proyecto Individual bootcamp Henry
                 </Heading>

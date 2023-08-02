@@ -52,10 +52,16 @@ function Skills() {
             bgClip="text"
             textTransform="uppercase"
             color={"white"}
+            fontFamily="Lato, sans-serif"
           >
             Tech Skills
           </Heading>
-          <Text textAlign="center" mb="8" color="white">
+          <Text
+            fontFamily="Lato, sans-serif"
+            textAlign="center"
+            mb="8"
+            color="white"
+          >
             HTML, CSS y JavaScript, React JS, Vue JS, Express JS, Redux, Redux
             Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL
             (PostgreSQL).
@@ -74,14 +80,21 @@ function Skills() {
           >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
-                <Box as="button" _hover={{ transform: "scale(1.1)" }} w={{ base: "20%", sm: "15%", md: "10%" }}>
-                  <Icon as={IconComponent} boxSize={{ base: "30px", sm: "40px", md: "50px" }} color="white" />
+                <Box
+                  as="button"
+                  _hover={{ transform: "scale(1.1)" }}
+                  w={{ base: "20%", sm: "15%", md: "10%" }}
+                >
+                  <Icon
+                    as={IconComponent}
+                    boxSize={{ base: "30px", sm: "40px", md: "50px" }}
+                    color="white"
+                  />
                 </Box>
               </Tooltip>
             ))}
           </HStack>
         </VStack>
-      
       </Box>
     </Center>
   );

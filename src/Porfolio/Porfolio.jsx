@@ -7,6 +7,7 @@ import Card from "./Card";
 import Proyectos from "./Proyectos";
 import Skills from "./Skills";
 import SoftSkills from "./SoftSkills";
+import Card2 from "./Card2";
 
 const Porfolio = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -31,13 +32,15 @@ const Porfolio = () => {
       bgSize="cover"
       bgPosition="center"
       bgRepeat="no-repeat"
-      minH="100vh"
+      
       display="flex"
       flexDirection="column"
-      py={{ base: 4, md: 10 }}
+      // py={{ base: 4, md: 10 }}
     >
+      <Card />
+
       <Box marginTop={10}>
-        <Card />
+        <Card2 />
       </Box>
       <Box marginTop={10}>
         <Skills />

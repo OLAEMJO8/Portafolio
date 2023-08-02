@@ -47,10 +47,16 @@ function SoftSkills() {
             bgClip="text"
             textTransform="uppercase"
             color={"white"}
+            fontFamily="Lato, sans-serif"
           >
             Soft Skills
           </Heading>
-          <Text textAlign="center" mb="8" color="white">
+          <Text
+            fontFamily="Lato, sans-serif"
+            textAlign="center"
+            mb="8"
+            color="white"
+          >
             Estas soft skills me han permitido crecer como profesional y
             contribuir en los proyectos que he participado. Siempre estoy
             buscando oportunidades para mejorar y seguir desarrollando estas
