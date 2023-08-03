@@ -9,6 +9,7 @@ import SoftSkills from "./SoftSkills";
 import Navbar from "./Navbar";
 import { FaArrowCircleUp } from "react-icons/fa";
 import Card2 from "./Card2";
+import Footer from "./Footer";
 
 const Porfolio = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -100,6 +101,7 @@ const Porfolio = () => {
         <div ref={proyectosRef}>
           <Proyectos />
         </div>
+      <Footer/>
       </div>
 
       {showScroll && (
@@ -116,7 +118,9 @@ const Porfolio = () => {
         />
       )}
     </Box>
+    
   );
+  
 };
 
 export default Porfolio;
