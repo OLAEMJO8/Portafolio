@@ -1,4 +1,13 @@
-import { Box, Flex, Button, Stack, IconButton, useDisclosure } from "@chakra-ui/react";
+import {
+  Box,
+  Flex,
+  Button,
+  Stack,
+  IconButton,
+  useDisclosure,
+  VStack,
+  CloseButton,
+} from "@chakra-ui/react";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = ({
@@ -12,8 +21,13 @@ const Navbar = ({
   return (
     <>
       <Box px={4}>
-        <Flex h={16} alignItems="center" justifyContent="space-between" px={4}>
-          <Stack direction="row" spacing={3}>
+        <Flex h={16} alignItems="center" justifyContent="center" px={4}>
+          <Stack
+            direction="row"
+            spacing={3}
+            display={{ base: "none", md: "flex" }}
+          >
+            {/* Buttons for larger devices (md) */}
             <Button
               onClick={scrollToContact}
               variant="outline"
@@ -60,7 +74,7 @@ const Navbar = ({
           </Box>
         </Flex>
 
-        <Box display={{ base: "inline-flex", md: "none" }}>
+        <Box display={{ base: "inline-flex", md: "none" }} >
           <VStack
             pos="absolute"
             top={0}
@@ -71,21 +85,28 @@ const Navbar = ({
             p={2}
             pb={4}
             m={2}
-            bg="teal.500"
+            color="white"
             spacing={3}
             rounded="sm"
             shadow="sm"
+            
           >
-            <Button variant="ghost" color="white" onClick={scrollToContact}>
+            <CloseButton
+              aria-label="Close menu"
+              onClick={mobileNav.onClose}
+              color="white"
+            />
+
+            <Button variant="outline" color="white" onClick={scrollToContact}>
               Contacto
             </Button>
-            <Button variant="ghost" color="white" onClick={scrollToTechSkills}>
+            <Button variant="outline" color="white" onClick={scrollToTechSkills}>
               Tech Skills
             </Button>
-            <Button variant="ghost" color="white" onClick={scrollToSoftSkills}>
+            <Button variant="outline" color="white" onClick={scrollToSoftSkills}>
               Soft Skills
             </Button>
-            <Button variant="ghost" color="white" onClick={scrollToProyectos}>
+            <Button variant="outline" color="white" onClick={scrollToProyectos}>
               Proyectos
             </Button>
           </VStack>

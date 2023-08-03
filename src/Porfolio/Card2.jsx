@@ -15,6 +15,7 @@ import {
   VStack,
   Wrap,
   WrapItem,
+  useBreakpointValue,
   useColorModeValue,
 } from "@chakra-ui/react";
 
@@ -72,12 +73,14 @@ export default function Card2() {
             padding={2}
             justifyContent={"space-between"}
             alignItems={{ base: "center", md: "flex-start" }}
+            
           >
             <Button
-              flex={1}
+              flex={{ base: "none", md: "1" }}
               fontFamily="Lato, sans-serif"
-              fontSize={{ base: "md", md: "md" }}
+              fontSize={{ base: "lg", md: "md" }}
               // rounded={'3xl'}
+            
               variant="outline"
               color={"white"}
               as="a"
@@ -92,7 +95,7 @@ export default function Card2() {
               as="a"
               href="https://www.linkedin.com/in/mjolaechea/"
               target="_blank"
-              flex={1}
+              flex={{ base: "none", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
               // rounded={"full"}
               variant="outline"
@@ -107,7 +110,7 @@ export default function Card2() {
               as="a"
               href="https://github.com/OLAEMJO8"
               target="_blank"
-              flex={1}
+              flex={{ base: "none", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
               // rounded={"full"}
               variant="outline"
