@@ -77,7 +77,7 @@ export default function Card2() {
               flex={1}
               fontFamily="Lato, sans-serif"
               fontSize={{ base: "md", md: "md" }}
-              rounded={'3xl'}
+              // rounded={'3xl'}
               variant="outline"
               color={"white"}
               as="a"
@@ -94,7 +94,7 @@ export default function Card2() {
               target="_blank"
               flex={1}
               fontSize={{ base: "md", md: "md" }}
-              rounded={"full"}
+              // rounded={"full"}
               variant="outline"
               color={"white"}
               mt={{ base: 4, md: 0 }}
@@ -109,7 +109,7 @@ export default function Card2() {
               target="_blank"
               flex={1}
               fontSize={{ base: "md", md: "md" }}
-              rounded={"full"}
+              // rounded={"full"}
               variant="outline"
               color={"white"}
               fontFamily="Lato, sans-serif"
