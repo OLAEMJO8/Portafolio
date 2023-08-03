@@ -73,10 +73,11 @@ const Navbar = ({
             <IconButton
               aria-label="Open menu"
               fontSize="20px"
+              variant="outline"
               color="white"
-              _hover={{ bg: "teal.500" }}
+              bg={"teal"}
               icon={<AiOutlineMenu />}
-              onClick={mobileNav.onOpen} 
+              onClick={mobileNav.onOpen}
             />
           </Box>
         </Flex>
@@ -92,7 +93,7 @@ const Navbar = ({
             p={2}
             pb={4}
             m={2}
-            color="teal"
+            color="white"
             spacing={3}
             rounded="sm"
             shadow="sm"
@@ -100,7 +101,9 @@ const Navbar = ({
             <CloseButton
               aria-label="Close menu"
               onClick={mobileNav.onClose}
+              variant="outline"
               color="white"
+              bg={"teal"}
             />
 
             <Button
