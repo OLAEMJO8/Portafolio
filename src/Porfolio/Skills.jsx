@@ -41,7 +41,7 @@ function Skills() {
 
   return (
     <Center>
-      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="60px">
+      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="60px" position='relative'>
         <VStack spacing="6" lineHeight="1">
           <Heading
             as="h2"
