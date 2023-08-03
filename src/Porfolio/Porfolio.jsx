@@ -82,7 +82,9 @@ const Porfolio = () => {
           scrollToProyectos={scrollToProyectos}
         />
       </Box>
-      <Card />
+      <div>
+        <Card />
+      </div>
       <div>
         <div ref={contactRef}>
           <Card2 />
