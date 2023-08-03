@@ -47,7 +47,7 @@ export default function Card2() {
             color={"white"}
             justifyContent="center"
             textAlign="center"
-            fontWeight="bold"
+            // fontWeight="bold"
             fontFamily="Bebas Neue, sans-serif"
             lineHeight="1"
             spacing="7"
