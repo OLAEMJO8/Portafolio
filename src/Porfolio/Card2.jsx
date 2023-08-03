@@ -22,7 +22,7 @@ export default function Card2() {
   const emailAddress = "olaecheamariajose@gmail.com";
   return (
     <Center  >
-      <Box maxW="1000px" w="100%" height="100vh" mt={{ base: "0px", md: "60px" }} >
+      <Box maxW="1000px" w="100%" height="100vh" mt={{ base: "0px", md: "50px" }} >
         <VStack
           // spacing={4}
           // maxW="900px"
