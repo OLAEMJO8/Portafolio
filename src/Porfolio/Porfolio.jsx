@@ -28,13 +28,13 @@ const Porfolio = () => {
 
   window.addEventListener("scroll", checkScrollTop);
 
-  // Crear las referencias a los elementos del porfolio
+
   const contactRef = useRef(null);
   const techSkillsRef = useRef(null);
   const softSkillsRef = useRef(null);
   const proyectosRef = useRef(null);
 
-  // Funciones para moverse a los elementos específicos del porfolio
+ 
   const scrollToContact = () => {
     if (contactRef && contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
