@@ -27,7 +27,6 @@ const Navbar = ({
             spacing={3}
             display={{ base: "none", md: "flex" }}
           >
-           
             <Button
               onClick={scrollToContact}
               variant="outline"
@@ -62,12 +61,18 @@ const Navbar = ({
             </Button>
           </Stack>
 
-          <Box   display={{ base: "inline-flex", md: "none" }} position="center"   left={0}
-            right={0} >
+          <Box
+            display={{ base: "inline-flex", md: "none" }}
+            position="center"
+            // top={0}
+            left={0}
+            right={0}
+            textAlign="center"
+            zIndex={999}
+          >
             <IconButton
               aria-label="Open menu"
               fontSize="20px"
-              
               color="white"
               _hover={{ bg: "teal.500" }}
               icon={<AiOutlineMenu />}
@@ -91,16 +96,20 @@ const Navbar = ({
             spacing={3}
             rounded="sm"
             shadow="sm"
-            
           >
             <CloseButton
               aria-label="Close menu"
               onClick={mobileNav.onClose}
               color="white"
-              
             />
 
-            <Button variant="outline" color="white"  bg={"teal"}   _hover={{ bg: "teal.500" }} onClick={scrollToContact}>
+            <Button
+              variant="outline"
+              color="white"
+              bg={"teal"}
+              _hover={{ bg: "teal.500" }}
+              onClick={scrollToContact}
+            >
               Contacto
             </Button>
             <Button
@@ -121,7 +130,13 @@ const Navbar = ({
             >
               Soft Skills
             </Button>
-            <Button variant="outline" color="white"   bg={"teal"}   _hover={{ bg: "teal.500" }} onClick={scrollToProyectos}>
+            <Button
+              variant="outline"
+              color="white"
+              bg={"teal"}
+              _hover={{ bg: "teal.500" }}
+              onClick={scrollToProyectos}
+            >
               Proyectos
             </Button>
           </VStack>
