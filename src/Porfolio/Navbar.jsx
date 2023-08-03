@@ -62,10 +62,11 @@ const Navbar = ({
             </Button>
           </Stack>
 
-          <Box display={{ base: "inline-flex", md: "none" }} position="fixed" top={0} right={4}>
+          <Box   display={{ base: "inline-flex", md: "none" }} position="center"  >
             <IconButton
               aria-label="Open menu"
               fontSize="20px"
+              
               color="white"
               _hover={{ bg: "teal.500" }}
               icon={<AiOutlineMenu />}
@@ -77,7 +78,7 @@ const Navbar = ({
         <Box display={{ base: "inline-flex", md: "none" }}>
           <VStack
             pos="absolute"
-            top={0}
+            // top={0}
             left={0}
             right={0}
             display={mobileNav.isOpen ? "flex" : "none"}
