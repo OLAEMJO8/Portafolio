@@ -15,7 +15,7 @@ import {
 export default function Proyectos() {
   return (
     <Center py={6}>
-      <Box maxW={"900px"} w={"full"} mt="80px" height="100vh">
+      <Box maxW={"900px"} w={"full"} mt="60px" height="100vh">
         {/* <Heading
           as="h2"
           size="xl"
