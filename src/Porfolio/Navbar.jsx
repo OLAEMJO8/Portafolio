@@ -29,32 +29,32 @@ const Navbar = ({
           >
             <Button
               onClick={scrollToContact}
-              variant="outline"
-              color={"white"}
+              // variant="outline"
+              // color={"white"}
               _hover={{ bg: "teal.500" }}
             >
               Contacto
             </Button>
             <Button
               onClick={scrollToTechSkills}
-              variant="outline"
-              color={"white"}
+              // variant="outline"
+              // color={"white"}
               _hover={{ bg: "teal.500" }}
             >
               Tech Skills
             </Button>
             <Button
               onClick={scrollToSoftSkills}
-              variant="outline"
-              color={"white"}
+              // variant="outline"
+              // color={"white"}
               _hover={{ bg: "teal.500" }}
             >
               Soft Skills
             </Button>
             <Button
               onClick={scrollToProyectos}
-              variant="outline"
-              color={"white"}
+              // variant="outline"
+              // color={"white"}
               _hover={{ bg: "teal.500" }}
             >
               Proyectos
@@ -101,14 +101,14 @@ const Navbar = ({
             <CloseButton
               aria-label="Close menu"
               onClick={mobileNav.onClose}
-              variant="outline"
-              color="white"
+              // variant="outline"
+              // color="white"
               bg={"teal"}
             />
 
             <Button
-              variant="outline"
-              color="white"
+              // variant="outline"
+              // color="white"
               bg={"teal"}
               _hover={{ bg: "teal.500" }}
               onClick={scrollToContact}
@@ -125,8 +125,8 @@ const Navbar = ({
               Tech Skills
             </Button>
             <Button
-              variant="outline"
-              color="white"
+              // variant="outline"
+              // color="white"
               bg={"teal"}
               _hover={{ bg: "teal.500" }}
               onClick={scrollToSoftSkills}
@@ -134,8 +134,8 @@ const Navbar = ({
               Soft Skills
             </Button>
             <Button
-              variant="outline"
-              color="white"
+              // variant="outline"
+              // color="white"
               bg={"teal"}
               _hover={{ bg: "teal.500" }}
               onClick={scrollToProyectos}
