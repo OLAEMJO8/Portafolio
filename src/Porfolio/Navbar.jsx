@@ -31,7 +31,8 @@ const Navbar = ({
               onClick={scrollToContact}
               variant="outline"
               color={"white"}
-              _hover={{ bg: "teal.500" }}
+              _hover={{ bg: "#4AAC95" }}
+              
             >
               Contacto
             </Button>
@@ -39,7 +40,7 @@ const Navbar = ({
               onClick={scrollToTechSkills}
               variant="outline"
               color={"white"}
-              _hover={{ bg: "teal.500" }}
+              _hover={{ bg: "#4AAC95" }}
             >
               Tech Skills
             </Button>
@@ -47,7 +48,7 @@ const Navbar = ({
               onClick={scrollToSoftSkills}
               variant="outline"
               color={"white"}
-              _hover={{ bg: "teal.500" }}
+              _hover={{ bg: "#4AAC95" }}
             >
               Soft Skills
             </Button>
@@ -55,7 +56,7 @@ const Navbar = ({
               onClick={scrollToProyectos}
               variant="outline"
               color={"white"}
-              _hover={{ bg: "teal.500" }}
+              _hover={{ bg: "#4AAC95" }}
             >
               Proyectos
             </Button>
@@ -75,7 +76,7 @@ const Navbar = ({
               fontSize="20px"
               variant="outline"
               color="white"
-              bg={"teal"}
+              bg={"#4AAC95"}
               icon={<AiOutlineMenu />}
               onClick={mobileNav.onOpen}
             />
@@ -101,16 +102,16 @@ const Navbar = ({
             <CloseButton
               aria-label="Close menu"
               onClick={mobileNav.onClose}
-               variant="outline"
+              variant="outline"
               color="white"
-              bg={"teal"}
+              bg={"#4AAC95"}
             />
 
             <Button
               variant="outline"
               color="white"
-              bg={"teal"}
-              _hover={{ bg: "teal.500" }}
+              bg={"#4AAC95"}
+              _hover={{ bg: "#white" }}
               onClick={scrollToContact}
             >
               Contacto
@@ -118,8 +119,8 @@ const Navbar = ({
             <Button
               variant="outline"
               color="white"
-              bg={"teal"}
-              _hover={{ bg: "teal.500" }}
+              bg={"#4AAC95"}
+              _hover={{ bg: "white" }}
               onClick={scrollToTechSkills}
             >
               Tech Skills
@@ -127,8 +128,8 @@ const Navbar = ({
             <Button
               variant="outline"
               color="white"
-              bg={"teal"}
-              _hover={{ bg: "teal.500" }}
+              bg={"#4AAC95"}
+              _hover={{ bg: "white" }}
               onClick={scrollToSoftSkills}
             >
               Soft Skills
@@ -136,8 +137,8 @@ const Navbar = ({
             <Button
               variant="outline"
               color="white"
-              bg={"teal"}
-              _hover={{ bg: "teal.500" }}
+              bg={"#4AAC95"}
+              _hover={{ bg: "white" }}
               onClick={scrollToProyectos}
             >
               Proyectos

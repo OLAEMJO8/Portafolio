@@ -10,12 +10,13 @@ import {
   Divider,
   SimpleGrid,
   Link,
+  Flex,
 } from "@chakra-ui/react";
 
 export default function Proyectos() {
   return (
-    <Center py={6}>
-      <Box maxW={"1000px"} w={"100%"} mt="60px" height="110vh"  position='relative'>
+    <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
+      <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
         {/* <Heading
           as="h2"
           size="xl"
@@ -220,6 +221,6 @@ export default function Proyectos() {
           </Link>
         </SimpleGrid>
       </Box>
-    </Center>
+    </Flex>
   );
 }

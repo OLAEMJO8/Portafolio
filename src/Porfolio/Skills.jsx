@@ -10,6 +10,7 @@ import {
   Text,
   Center,
   Icon,
+  Flex,
 } from "@chakra-ui/react";
 
 import {
@@ -40,8 +41,8 @@ function Skills() {
   ];
 
   return (
-    <Center>
-      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="60px" position='relative'>
+    <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
+    <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
         <VStack spacing="6" lineHeight="1">
           <Heading
             as="h2"
@@ -51,7 +52,8 @@ function Skills() {
             bgClip="text"
             textTransform="uppercase"
             color={"white"}
-            fontFamily="Lato, sans-serif"
+            fontFamily="Bebas Neue, sans-serif"
+            // fontSize={{ base: "4xl", md: "6rem" }}
             fontSize={{ base: "7xl", md: "8rem" }}
           >
             Tech Skills
@@ -63,11 +65,9 @@ function Skills() {
             mb="8"
             color="white"
           >
-            HTML, CSS y JavaScript, React JS, Vue JS, Express JS, Redux, Redux
-            Toolkit, Node.js, Firebase, Bootstrap, Chakra UI, NodeJS, SQL
-            (PostgreSQL).
+            ReactJS || ReduxJS || Tailwind CSS || GitFlow ||
             <br />
-            Control de versiones: Git, GitHub, gitflow.
+            Node.js || Express.js || SQL || PostgreSQL || Sequelize ||
           </Text>
         </VStack>
         <br />
@@ -99,7 +99,7 @@ function Skills() {
           </HStack>
         </VStack>
       </Box>
-    </Center>
+    </Flex>
   );
 }
 

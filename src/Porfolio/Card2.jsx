@@ -22,13 +22,8 @@ import {
 export default function Card2() {
   const emailAddress = "olaecheamariajose@gmail.com";
   return (
-    <Center  >
-      <Box  maxW="1000px"
-        w="100%"
-        mt="60px"
-        spacing="6"
-        position="relative"
-        minHeight="100vh">
+    <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
+    <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
         <VStack
           // spacing={4}
           // maxW="900px"
@@ -45,14 +40,29 @@ export default function Card2() {
               "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
             }
           />
-          <Text
+           <Text
+            textTransform="uppercase"
+            // fontSize={{ base: "md", md: "3.75rem" }}
+            fontSize={{ base: "4rem", md: "6rem" }}
+            color={"white"}
+            justifyContent="center"
+            textAlign="center"
+            fontWeight="bold"
+            fontFamily="Bebas Neue, sans-serif"
+            lineHeight="1"
+            spacing="7"
+            // style={{ fontSize: "10.5rem" }}
+          >
+            Maria Jose Olaechea
+          </Text>
+          {/* <Text
             fontSize={{ base: "2xl", md: "4xl" }}
             color={"white"}
             fontFamily="Lato, sans-serif"
           >
             Maria Jose Olaechea
-          </Text>
-          <Text
+          </Text> */}
+          {/* <Text
             fontWeight={600}
             color={"white"}
             fontSize={{ base: "md", md: "xl" }}
@@ -60,7 +70,7 @@ export default function Card2() {
             fontFamily="Lato, sans-serif"
           >
             olaecheamariajose@gmail.com
-          </Text>
+          </Text> */}
           <Text
             fontFamily="Lato, sans-serif"
             textAlign={"center"}
@@ -77,11 +87,12 @@ export default function Card2() {
             direction={{ base: "column", md: "row" }}
             padding={2}
             justifyContent={"space-between"}
-            alignItems={{ base: "center", md: "flex-start" }}
+            // alignItems={{ base: "center", md: "flex-start" }}
+            flex-flexDirection={"row"}
             
           >
             <Button
-              flex={{ base: "none", md: "1" }}
+              flex={{ base: "row", md: "1" }}
               fontFamily="Lato, sans-serif"
               fontSize={{ base: "lg", md: "md" }}
               // rounded={'3xl'}
@@ -100,7 +111,7 @@ export default function Card2() {
               as="a"
               href="https://www.linkedin.com/in/mjolaechea/"
               target="_blank"
-              flex={{ base: "none", md: "1" }}
+              flex={{ base: "row", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
               // rounded={"full"}
               variant="outline"
@@ -115,7 +126,8 @@ export default function Card2() {
               as="a"
               href="https://github.com/OLAEMJO8"
               target="_blank"
-              flex={{ base: "none", md: "1" }}
+              
+              flex={{ base: "row", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
               // rounded={"full"}
               variant="outline"
@@ -143,6 +155,6 @@ export default function Card2() {
           </Stack>
         </VStack>
       </Box>
-    </Center>
+    </Flex>
   );
 }

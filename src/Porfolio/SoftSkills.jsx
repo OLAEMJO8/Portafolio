@@ -9,6 +9,7 @@ import {
   Center,
   Icon,
   Text,
+  Flex,
 } from "@chakra-ui/react";
 
 import { FaPeopleCarry } from "react-icons/fa";
@@ -35,9 +36,9 @@ function SoftSkills() {
   ];
 
   return (
-    <Center>
-      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="80px"  position='relative'>
-        <VStack spacing="6" >
+    <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
+    <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
+        <VStack spacing="6">
           <Heading
             as="h2"
             size="xl"
@@ -46,9 +47,8 @@ function SoftSkills() {
             bgClip="text"
             textTransform="uppercase"
             color={"white"}
-            fontFamily="Lato, sans-serif"
+            fontFamily="Bebas Neue, sans-serif"
             fontSize={{ base: "7xl", md: "8rem" }}
-            
           >
             Soft Skills
           </Heading>
@@ -60,10 +60,12 @@ function SoftSkills() {
             size="5xl"
             fontSize={{ base: "xl", md: "xl" }}
           >
-            Estas son mis top 5 de soft skills, las cuales me han permitido crecer como profesional y
-            contribuir en los proyectos que he participado. Siempre estoy
-            buscando oportunidades para mejorar y seguir desarrollando mas
-            habilidades en mi carrera profesional.
+            Estas son mis top 5 de soft skills, las cuales me han permitido
+            crecer como profesional y contribuir en los proyectos que he
+            participado.
+            <br />
+            Siempre estoy buscando oportunidades para mejorar y seguir
+            desarrollando mas habilidades en mi carrera profesional.
           </Text>
         </VStack>
         <br />
@@ -94,7 +96,7 @@ function SoftSkills() {
           </HStack>
         </VStack>
       </Box>
-    </Center>
+    </Flex>
   );
 }
 
