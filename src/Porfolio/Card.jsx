@@ -7,7 +7,7 @@ export default function Card() {
         <Text
           textTransform="uppercase"
           // fontSize={{ base: "md", md: "3.75rem" }}
-          fontSize={{ base: "7xl", md: "10rem" }}
+          fontSize={{ base: "7xl", md: "9rem" }}
           color={"white"}
           justifyContent="center"
           textAlign="left"
