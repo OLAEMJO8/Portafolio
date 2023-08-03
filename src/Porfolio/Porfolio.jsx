@@ -28,13 +28,11 @@ const Porfolio = () => {
 
   window.addEventListener("scroll", checkScrollTop);
 
-
   const contactRef = useRef(null);
   const techSkillsRef = useRef(null);
   const softSkillsRef = useRef(null);
   const proyectosRef = useRef(null);
 
- 
   const scrollToContact = () => {
     if (contactRef && contactRef.current) {
       contactRef.current.scrollIntoView({ behavior: "smooth" });
@@ -101,7 +99,9 @@ const Porfolio = () => {
         <div ref={proyectosRef}>
           <Proyectos />
         </div>
-      <Footer/>
+        <div>
+          <Footer />
+        </div>
       </div>
 
       {showScroll && (
@@ -118,9 +118,7 @@ const Porfolio = () => {
         />
       )}
     </Box>
-    
   );
-  
 };
 
 export default Porfolio;
