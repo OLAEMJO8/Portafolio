@@ -62,7 +62,8 @@ const Navbar = ({
             </Button>
           </Stack>
 
-          <Box   display={{ base: "inline-flex", md: "none" }} position="center"  >
+          <Box   display={{ base: "inline-flex", md: "none" }} position="center"   left={0}
+            right={0} >
             <IconButton
               aria-label="Open menu"
               fontSize="20px"
