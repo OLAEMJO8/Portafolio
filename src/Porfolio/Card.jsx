@@ -7,12 +7,13 @@ export default function Card() {
         <Text
           textTransform="uppercase"
           // fontSize={{ base: "md", md: "3.75rem" }}
-          fontSize={{ base: "7xl", md: "7rem" }}
+          fontSize={{ base: "7xl", md: "9rem" }}
           color={"white"}
           justifyContent="center"
           textAlign="left"
           fontWeight="bold"
           fontFamily="Bebas Neue, sans-serif"
+          lineHeight="1"
           // style={{ fontSize: "10.5rem" }}
         >
           Full Stack Developer Maria Jose Olaechea ReactJS ReduxJS Tailwind CSS
