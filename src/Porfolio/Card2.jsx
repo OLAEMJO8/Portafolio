@@ -77,7 +77,7 @@ export default function Card2() {
               flex={1}
               fontFamily="Lato, sans-serif"
               fontSize={{ base: "md", md: "md" }}
-              rounded={"full"}
+              rounded={'3xl'}
               variant="outline"
               color={"white"}
               as="a"
