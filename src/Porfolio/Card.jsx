@@ -3,12 +3,12 @@ import { Box, Center, Stack, Text } from "@chakra-ui/react";
 export default function Card() {
   return (
     <Center>
-      <Box maxW="1000px" w="100%" mt="60px" spacing="6" position="relative">
+      <Box maxW="2000px" w="100%" mt="60px" spacing="6" position='static'>
         <Stack spacing="6">
           <Text
             textTransform="uppercase"
             // fontSize={{ base: "md", md: "3.75rem" }}
-            fontSize={{ base: "6rem", md: "9rem" }}
+            fontSize={{ base: "6rem", md: "11.5rem" }}
             color={"white"}
             justifyContent="center"
             textAlign="left"
