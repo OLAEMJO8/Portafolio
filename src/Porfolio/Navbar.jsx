@@ -27,7 +27,7 @@ const Navbar = ({
             spacing={3}
             display={{ base: "none", md: "flex" }}
           >
-            {/* Buttons for larger devices (md) */}
+           
             <Button
               onClick={scrollToContact}
               variant="outline"
@@ -74,7 +74,7 @@ const Navbar = ({
           </Box>
         </Flex>
 
-        <Box display={{ base: "inline-flex", md: "none" }} >
+        <Box display={{ base: "inline-flex", md: "none" }}>
           <VStack
             pos="absolute"
             top={0}
@@ -95,18 +95,31 @@ const Navbar = ({
               aria-label="Close menu"
               onClick={mobileNav.onClose}
               color="white"
+              
             />
 
-            <Button variant="outline" color="white" onClick={scrollToContact}>
+            <Button variant="outline" color="white"  bg={"teal"}   _hover={{ bg: "teal.500" }} onClick={scrollToContact}>
               Contacto
             </Button>
-            <Button variant="outline" color="white" onClick={scrollToTechSkills}>
+            <Button
+              variant="outline"
+              color="white"
+              bg={"teal"}
+              _hover={{ bg: "teal.500" }}
+              onClick={scrollToTechSkills}
+            >
               Tech Skills
             </Button>
-            <Button variant="outline" color="white" onClick={scrollToSoftSkills}>
+            <Button
+              variant="outline"
+              color="white"
+              bg={"teal"}
+              _hover={{ bg: "teal.500" }}
+              onClick={scrollToSoftSkills}
+            >
               Soft Skills
             </Button>
-            <Button variant="outline" color="white" onClick={scrollToProyectos}>
+            <Button variant="outline" color="white"   bg={"teal"}   _hover={{ bg: "teal.500" }} onClick={scrollToProyectos}>
               Proyectos
             </Button>
           </VStack>
