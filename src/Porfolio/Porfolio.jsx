@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { Box, IconButton } from "@chakra-ui/react";
 import fondo from "../Fondo/fondo2.png";
 
-import Card from "./Card";
+// import Card from "./Card";
 import Proyectos from "./Proyectos";
 import Skills from "./Skills";
 import SoftSkills from "./SoftSkills";
@@ -82,9 +82,9 @@ const Porfolio = () => {
           scrollToProyectos={scrollToProyectos}
         />
       </Box>
-      <div>
+      {/* <div>
         <Card />
-      </div>
+      </div> */}
       <div>
         <div ref={contactRef}>
           <Card2 />
