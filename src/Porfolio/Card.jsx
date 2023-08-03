@@ -3,10 +3,11 @@ import { Center, Stack, Text } from "@chakra-ui/react";
 export default function Card() {
   return (
     <Center>
-      <Stack w="100%">
+      <Stack w="100%" height="100vh" mt="60px">
         <Text
           textTransform="uppercase"
-          fontSize={{ base: "7xl", md: "10.5rem" }}
+          // fontSize={{ base: "md", md: "3.75rem" }}
+          fontSize={{ base: "7xl", md: "10rem" }}
           color={"white"}
           justifyContent="center"
           textAlign="left"

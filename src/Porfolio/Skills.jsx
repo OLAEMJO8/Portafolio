@@ -40,10 +40,10 @@ function Skills() {
   ];
 
   return (
-    <Center py="8">
-      <Box maxW="900px" w="100%">
-        <Divider mb="4" maxW="50%" mx="auto" />
-        <VStack spacing="4">
+    <Center>
+      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="60px">
+       
+        <VStack spacing="6" >
           <Heading
             as="h2"
             size="xl"
@@ -53,11 +53,13 @@ function Skills() {
             textTransform="uppercase"
             color={"white"}
             fontFamily="Lato, sans-serif"
+            fontSize={{ base: "7xl", md: "8rem" }}
           >
             Tech Skills
           </Heading>
           <Text
             fontFamily="Lato, sans-serif"
+            fontSize={{ base: "xl", md: "xl" }}
             textAlign="center"
             mb="8"
             color="white"
@@ -72,11 +74,12 @@ function Skills() {
         <br />
         <VStack spacing="6" alignItems="center">
           <HStack
-            spacing={{ base: "8", md: "24" }}
+            spacing={{ base: "8", md: "8" }}
             justify="center"
             flexWrap="wrap"
-            maxW="900px"
-            w="100%"
+            maxW="1000px"
+          
+            w="100%" height="50vh" 
           >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
@@ -84,10 +87,11 @@ function Skills() {
                   as="button"
                   _hover={{ transform: "scale(1.1)" }}
                   w={{ base: "20%", sm: "15%", md: "10%" }}
+                  
                 >
                   <Icon
                     as={IconComponent}
-                    boxSize={{ base: "30px", sm: "40px", md: "50px" }}
+                    boxSize={{ base: "80px", sm: "80px", md: "90px" }}
                     color="white"
                   />
                 </Box>

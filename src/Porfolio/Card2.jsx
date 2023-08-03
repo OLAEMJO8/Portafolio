@@ -21,13 +21,14 @@ import {
 export default function Card2() {
   const emailAddress = "olaecheamariajose@gmail.com";
   return (
-    <Center py="8">
-      <Box maxW="900px" w="100%">
+    <Center  >
+      <Box maxW="1000px" w="100%" height="100vh"  >
         <VStack
           spacing={4}
-          maxW="900px"
+          // maxW="900px"
           justifyContent="center"
           alignItems="center"
+          w="100%" height="100vh" 
         >
           <Avatar
             size={{ base: "lg", md: "6xl" }}
@@ -82,6 +83,7 @@ export default function Card2() {
               as="a"
               target="_blank"
               onClick={() => (window.location.href = `mailto:${emailAddress}`)}
+              _hover={{ bg: "teal.500" }}
             >
               Email
             </Button>
@@ -97,6 +99,7 @@ export default function Card2() {
               color={"white"}
               mt={{ base: 4, md: 0 }}
               fontFamily="Lato, sans-serif"
+              _hover={{ bg: "teal.500" }}
             >
               LinkedIn
             </Button>
@@ -111,6 +114,7 @@ export default function Card2() {
               color={"white"}
               fontFamily="Lato, sans-serif"
               mt={{ base: 4, md: 0 }}
+              _hover={{ bg: "teal.500" }}
             >
               GitHub
             </Button>

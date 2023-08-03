@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import { Box, Heading, IconButton } from "@chakra-ui/react";
-import { FaArrowCircleUp } from "react-icons/fa"; // Importa el icono de flecha hacia arriba
+import React, { useState, useRef } from "react";
+import { Box, IconButton } from "@chakra-ui/react";
 import fondo from "../Fondo/fondo2.png";
 
 import Card from "./Card";
 import Proyectos from "./Proyectos";
 import Skills from "./Skills";
 import SoftSkills from "./SoftSkills";
+import Navbar from "./Navbar";
+import { FaArrowCircleUp } from "react-icons/fa";
 import Card2 from "./Card2";
 
 const Porfolio = () => {
@@ -26,6 +27,37 @@ const Porfolio = () => {
 
   window.addEventListener("scroll", checkScrollTop);
 
+  // Crear las referencias a los elementos del porfolio
+  const contactRef = useRef(null);
+  const techSkillsRef = useRef(null);
+  const softSkillsRef = useRef(null);
+  const proyectosRef = useRef(null);
+
+  // Funciones para moverse a los elementos específicos del porfolio
+  const scrollToContact = () => {
+    if (contactRef && contactRef.current) {
+      contactRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToTechSkills = () => {
+    if (techSkillsRef && techSkillsRef.current) {
+      techSkillsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToSoftSkills = () => {
+    if (softSkillsRef && softSkillsRef.current) {
+      softSkillsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToProyectos = () => {
+    if (proyectosRef && proyectosRef.current) {
+      proyectosRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <Box
       backgroundImage={`url(${fondo})`}
@@ -36,29 +68,51 @@ const Porfolio = () => {
       flexDirection="column"
       // py={{ base: 4, md: 10 }}
     >
+      <Box
+        as="header"
+        position="fixed"
+        top={0}
+        left={0}
+        width="100%"
+        zIndex="999"
+      >
+        <Navbar
+          scrollToContact={scrollToContact}
+          scrollToTechSkills={scrollToTechSkills}
+          scrollToSoftSkills={scrollToSoftSkills}
+          scrollToProyectos={scrollToProyectos}
+        />
+      </Box>
       <Card />
+      <div>
+        <div ref={contactRef}>
+          <Card2 />
+        </div>
 
-      <Card2 />
+        <div ref={techSkillsRef}>
+          <Skills />
+        </div>
 
-      <Box marginTop={10}>
-        <Skills />
-      </Box>
-      <Box marginTop={10}>
-        <SoftSkills />
-      </Box>
-      <Box>
-        <Proyectos />
-      </Box>
+        <div ref={softSkillsRef}>
+          <SoftSkills />
+        </div>
+
+        <div ref={proyectosRef}>
+          <Proyectos />
+        </div>
+      </div>
+
       {showScroll && (
         <IconButton
           icon={<FaArrowCircleUp />}
           onClick={scrollTop}
           size="lg"
-          color={'white'}
+          bg="teal.500"
           position="fixed"
-          bottom="40px"
-          right="40px"
+          bottom="50px"
+          right="50px"
           zIndex="999"
+          _hover={{ bg: "white" }}
         />
       )}
     </Box>

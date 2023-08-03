@@ -15,8 +15,7 @@ import {
 export default function Proyectos() {
   return (
     <Center py={6}>
-      <Box maxW={"900px"} w={"full"}>
-        <Divider mb="6" maxW="50%" mx="auto" />
+      <Box maxW={"900px"} w={"full"} mt="80px">
         <Heading
           as="h2"
           size="xl"
@@ -29,7 +28,7 @@ export default function Proyectos() {
         >
           Proyectos
         </Heading>
-        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}> 
+        <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
           <Link
             as="a"
             href="https://github.com/OLAEMJO8/Portafolio"
