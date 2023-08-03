@@ -28,7 +28,7 @@ export default function Card2() {
           // maxW="900px"
           justifyContent="center"
           alignItems="center"
-          w="100%" height="80vh" 
+          w="100%" height="90vh" 
         >
           <Avatar
             size={{ base: "6xl", md: "6xl" }}
@@ -76,7 +76,7 @@ export default function Card2() {
             <Button
               flex={1}
               fontFamily="Lato, sans-serif"
-              fontSize={{ base: "4xl", md: "md" }}
+              fontSize={{ base: "md", md: "md" }}
               rounded={"full"}
               variant="outline"
               color={"white"}
@@ -93,7 +93,7 @@ export default function Card2() {
               href="https://www.linkedin.com/in/mjolaechea/"
               target="_blank"
               flex={1}
-              fontSize={{ base: "4xl", md: "md" }}
+              fontSize={{ base: "md", md: "md" }}
               rounded={"full"}
               variant="outline"
               color={"white"}
@@ -108,7 +108,7 @@ export default function Card2() {
               href="https://github.com/OLAEMJO8"
               target="_blank"
               flex={1}
-              fontSize={{ base: "4xl", md: "md" }}
+              fontSize={{ base: "md", md: "md" }}
               rounded={"full"}
               variant="outline"
               color={"white"}
