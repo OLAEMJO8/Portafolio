@@ -28,7 +28,7 @@ export default function Card2() {
           // maxW="900px"
           justifyContent="center"
           alignItems="center"
-          w="100%" height="100vh" 
+          w="100%" height="80vh" 
         >
           <Avatar
             size={{ base: "6xl", md: "6xl" }}
