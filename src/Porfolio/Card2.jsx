@@ -21,18 +21,17 @@ import {
 export default function Card2() {
   const emailAddress = "olaecheamariajose@gmail.com";
   return (
-    <Center>
-      <Box maxW="1000px" w="100%" height="100vh" mt="60px">
+    <Center  >
+      <Box maxW="1000px" w="100%" height="100vh" mt="60px" >
         <VStack
-          spacing={4}
+          // spacing={4}
           // maxW="900px"
           justifyContent="center"
           alignItems="center"
-          w="100%"
-          height="100vh"
+          w="100%" height="100vh" 
         >
           <Avatar
-            size={{ base: "lg", md: "6xl" }}
+            size={{ base: "6xl", md: "6xl" }}
             name="Maria Jose"
             justifyContent="center"
             alignItems="center"
@@ -41,7 +40,7 @@ export default function Card2() {
             }
           />
           <Text
-            fontSize={{ base: "xl", md: "2xl" }}
+            fontSize={{ base: "2xl", md: "4xl" }}
             color={"white"}
             fontFamily="Lato, sans-serif"
           >
@@ -50,7 +49,7 @@ export default function Card2() {
           <Text
             fontWeight={600}
             color={"white"}
-            fontSize={{ base: "sm", md: "md" }}
+            fontSize={{ base: "md", md: "xl" }}
             mb={4}
             fontFamily="Lato, sans-serif"
           >
@@ -60,7 +59,7 @@ export default function Card2() {
             fontFamily="Lato, sans-serif"
             textAlign={"center"}
             color={"white"}
-            px={{ base: 4, md: 7 }}
+            fontSize={{ base: "2xl", md: "4xl" }}
           >
             Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS ||
             Node.js || Express.js || SQL || PostgreSQL || Sequelize
