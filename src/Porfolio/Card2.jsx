@@ -67,7 +67,7 @@ export default function Card2() {
 
           <Stack
             width={"100%"}
-            mt={"5rem"}
+            mt={"2rem"}
             direction={{ base: "column", md: "row" }}
             padding={2}
             justifyContent={"space-between"}
