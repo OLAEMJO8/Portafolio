@@ -42,8 +42,7 @@ function Skills() {
   return (
     <Center>
       <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="60px">
-       
-        <VStack spacing="6" >
+        <VStack spacing="6" lineHeight="1">
           <Heading
             as="h2"
             size="xl"
@@ -77,9 +76,10 @@ function Skills() {
             spacing={{ base: "8", md: "8" }}
             justify="center"
             flexWrap="wrap"
-            maxW="1000px"
-          
-            w="100%" height="50vh" 
+            maxW="900px"
+            w="100%"
+            height="40vh"
+            lineHeight="1"
           >
             {technologies.map(({ icon: IconComponent, name }) => (
               <Tooltip key={name} label={name}>
@@ -87,7 +87,6 @@ function Skills() {
                   as="button"
                   _hover={{ transform: "scale(1.1)" }}
                   w={{ base: "20%", sm: "15%", md: "10%" }}
-                  
                 >
                   <Icon
                     as={IconComponent}

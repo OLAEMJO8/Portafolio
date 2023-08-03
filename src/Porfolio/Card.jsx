@@ -3,7 +3,7 @@ import { Center, Stack, Text } from "@chakra-ui/react";
 export default function Card() {
   return (
     <Center>
-      <Stack w="100%" height="100vh" mt="60px" spacing="4">
+      <Stack w="100%" height="100vh" mt="60px" >
         <Text
           textTransform="uppercase"
           // fontSize={{ base: "md", md: "3.75rem" }}
@@ -14,6 +14,7 @@ export default function Card() {
           fontWeight="bold"
           fontFamily="Bebas Neue, sans-serif"
           lineHeight="1"
+          spacing="7"
           // style={{ fontSize: "10.5rem" }}
         >
           Full Stack Developer Maria Jose Olaechea ReactJS ReduxJS Tailwind CSS
