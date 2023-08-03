@@ -36,7 +36,7 @@ function SoftSkills() {
 
   return (
     <Center>
-      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="150px">
+      <Box maxW="1000px" w="100%" height="100vh" spacing="6" mt="60px">
         <VStack spacing="6" >
           <Heading
             as="h2"

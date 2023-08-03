@@ -21,14 +21,15 @@ import {
 export default function Card2() {
   const emailAddress = "olaecheamariajose@gmail.com";
   return (
-    <Center  >
-      <Box maxW="1000px" w="100%" height="100vh"  >
+    <Center>
+      <Box maxW="1000px" w="100%" height="100vh" mt="60px">
         <VStack
           spacing={4}
           // maxW="900px"
           justifyContent="center"
           alignItems="center"
-          w="100%" height="100vh" 
+          w="100%"
+          height="100vh"
         >
           <Avatar
             size={{ base: "lg", md: "6xl" }}
