@@ -15,8 +15,8 @@ import {
 export default function Proyectos() {
   return (
     <Center py={6}>
-      <Box maxW={"900px"} w={"full"} mt="80px">
-        <Heading
+      <Box maxW={"900px"} w={"full"} mt="80px" height="100vh">
+        {/* <Heading
           as="h2"
           size="xl"
           textAlign="center"
@@ -27,7 +27,7 @@ export default function Proyectos() {
           fontFamily="Lato, sans-serif"
         >
           Proyectos
-        </Heading>
+        </Heading> */}
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
           <Link
             as="a"
