@@ -59,7 +59,7 @@ export default function Card2() {
             fontFamily="Lato, sans-serif"
             textAlign={"center"}
             color={"white"}
-            fontSize={{ base: "2xl", md: "4xl" }}
+            fontSize={{ base: "2xl", md: "2xl" }}
           >
             Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS ||
             Node.js || Express.js || SQL || PostgreSQL || Sequelize
