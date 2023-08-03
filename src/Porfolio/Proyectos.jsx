@@ -173,7 +173,7 @@ export default function Proyectos() {
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
-                bg={"gray.100"}
+               // bg={"gray.100"}
                 mt={-6}
                 mx={-6}
                 mb={6}
