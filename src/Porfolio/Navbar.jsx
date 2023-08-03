@@ -76,7 +76,7 @@ const Navbar = ({
               color="white"
               _hover={{ bg: "teal.500" }}
               icon={<AiOutlineMenu />}
-              onClick={mobileNav.onOpen}
+              onClick={mobileNav.onOpen} 
             />
           </Box>
         </Flex>
@@ -92,7 +92,7 @@ const Navbar = ({
             p={2}
             pb={4}
             m={2}
-            color="white"
+            color="teal"
             spacing={3}
             rounded="sm"
             shadow="sm"
