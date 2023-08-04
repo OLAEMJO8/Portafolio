@@ -56,7 +56,7 @@ function SoftSkills() {
             fontFamily="Lato, sans-serif"
             textAlign="center"
             mb="8"
-            color="black"
+            color="white"
             size="5xl"
             fontSize={{ base: "xl", md: "xl" }}
           >
@@ -88,7 +88,7 @@ function SoftSkills() {
                   <Icon
                     as={IconComponent}
                     boxSize={{ base: "80px", sm: "80px", md: "90px" }}
-                    color="#162130"
+                    color="white"
                   />
                 </Box>
               </Tooltip>

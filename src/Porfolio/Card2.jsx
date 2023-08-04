@@ -47,7 +47,7 @@ export default function Card2() {
             mb="4"
             bgClip="text"
             textTransform="uppercase"
-            color={"#162130"}
+            color={"#cf2e2e"}
             fontFamily="Bebas Neue, sans-serif"
             fontSize={{ base: "3rem", md: "4rem" }}
             lineHeight="2"
@@ -67,7 +67,7 @@ export default function Card2() {
           <Text
             fontFamily="Lato, sans-serif"
             textAlign={"center"}
-            color={"black"}
+            color={"white"}
             fontSize={{ base: "2xl", md: "2xl" }}
           >
             Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS ||

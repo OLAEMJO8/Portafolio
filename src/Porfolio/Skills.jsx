@@ -63,7 +63,7 @@ function Skills() {
             fontSize={{ base: "xl", md: "xl" }}
             textAlign="center"
             mb="8"
-            color="black"
+            color="white"
           >
             ReactJS || ReduxJS || Tailwind CSS || GitFlow ||
             <br />
@@ -91,7 +91,7 @@ function Skills() {
                   <Icon
                     as={IconComponent}
                     boxSize={{ base: "80px", sm: "80px", md: "90px" }}
-                    color="#162130"
+                    color="white"
                   />
                 </Box>
               </Tooltip>

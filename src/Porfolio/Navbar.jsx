@@ -33,6 +33,8 @@ const Navbar = ({
               color={"black"}
               bg={"white"}
               _hover={{ bg: "#cf2e2e" }}
+             
+            
             >
               Contacto
             </Button>
