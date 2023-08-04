@@ -88,7 +88,7 @@ function SoftSkills() {
                   <Icon
                     as={IconComponent}
                     boxSize={{ base: "80px", sm: "80px", md: "90px" }}
-                    color="black"
+                    color="#162130"
                   />
                 </Box>
               </Tooltip>

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Box, IconButton } from "@chakra-ui/react";
-import fondo from "../Fondo/fondo2.png";
+import fondo from "../Fondo/fondo3.jpg";
 
 // import Card from "./Card";
 import Proyectos from "./Proyectos";
@@ -59,8 +59,9 @@ const Porfolio = () => {
 
   return (
     <Box
-      // backgroundImage={`url(${fondo})`}
-      backgroundColor={'whiteAlpha.800'}
+      backgroundImage={`url(${fondo})`}
+      // backgroundColor={'#e6b082'}
+      // backgroundColor={'#3b363d'}
       bgSize="cover"
       // bgPosition="center"
       bgRepeat="no-repeat"

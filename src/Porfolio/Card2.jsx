@@ -47,7 +47,7 @@ export default function Card2() {
             mb="4"
             bgClip="text"
             textTransform="uppercase"
-            color={"#cf2e2e"}
+            color={"#162130"}
             fontFamily="Bebas Neue, sans-serif"
             fontSize={{ base: "3rem", md: "4rem" }}
             lineHeight="2"
