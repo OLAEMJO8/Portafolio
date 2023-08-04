@@ -42,7 +42,13 @@ function Skills() {
 
   return (
     <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
-    <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
+      <Box
+        maxW={"1000px"}
+        w={"100%"}
+        mt="60px"
+        position="relative"
+        
+      >
         <VStack spacing="6" lineHeight="1">
           <Heading
             as="h2"
@@ -51,7 +57,7 @@ function Skills() {
             mb="4"
             bgClip="text"
             textTransform="uppercase"
-            color={'#cf2e2e'}
+            color={"#cf2e2e"}
             fontFamily="Bebas Neue, sans-serif"
             // fontSize={{ base: "4xl", md: "6rem" }}
             fontSize={{ base: "7xl", md: "8rem" }}

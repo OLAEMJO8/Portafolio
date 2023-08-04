@@ -38,7 +38,7 @@ export default function Proyectos() {
                 pos={"relative"}
               >
                 <Image
-                  bg={"pink.50"}
+                  // bg={"pink.50"}
                   src={
                     "https://github.com/OLAEMJO8/Portafolio/raw/main/image.png"
                   }
@@ -60,7 +60,7 @@ export default function Proyectos() {
                   PORTAFOLIO
                 </Text>
                 <Heading
-                  color={"white"}
+                  color={"black"}
                   fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
@@ -68,7 +68,7 @@ export default function Proyectos() {
                 </Heading>
                 {/* <Text
                   fontFamily="Lato, sans-serif"
-                  color={"white"}
+                  color={"black"}
                   fontSize={{ base: "sm", md: "md" }}
                 >
                   Este portafolio cuenta un poco de mi, mis skills, mis
@@ -102,7 +102,7 @@ export default function Proyectos() {
                 pos={"relative"}
               >
                 <Image
-                  bg={"pink.50"}
+                  // bg={"pink.50"}
                   src={
                     "https://user-images.githubusercontent.com/110426875/257066093-37c1034b-122a-4613-abf0-d5a70de7e2c9.png"
                   }
@@ -124,14 +124,14 @@ export default function Proyectos() {
                   PROFINDER
                 </Text>
                 <Heading
-                  color={"white"}
+                  color={"black"}
                   fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Proyecto Final bootcamp Henry
                 </Heading>
                 {/* <Text
-                  color={"white"}
+                  color={"black"}
                   fontFamily="Lato, sans-serif"
                   fontSize={{ base: "sm", md: "md" }}
                 >
@@ -162,14 +162,14 @@ export default function Proyectos() {
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
-                bg={"gray.100"}
+                bg={"black.100"}
                 mt={-6}
                 mx={-6}
                 mb={6}
                 pos={"relative"}
               >
                 <Image
-                  bg={"pink.50"}
+                  // bg={"pink.50"}
                   src={"https://github.com/OLAEMJO8/drivers/raw/main/F1.svg"}
                   alt="Example"
                   w="100%"
@@ -189,13 +189,13 @@ export default function Proyectos() {
                   Drivers
                 </Text>
                 <Heading
-                  color={"white"}
+                  color={"black"}
                   fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Proyecto Individual bootcamp Henry
                 </Heading>
-                {/* <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
+                {/* <Text color={"black"} fontSize={{ base: "sm", md: "md" }}>
                   Visualización de cards de corredores, con la posibilidad de
                   filtrar, ordenarlos, buscar uno en específico a través de la
                   barra de búsqueda y se podrá crear un nuevo corredor a través
