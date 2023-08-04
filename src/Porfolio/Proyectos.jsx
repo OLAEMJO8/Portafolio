@@ -29,6 +29,8 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "300px", md: "400px" }}
+              border="5px solid black"
+             
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -48,7 +50,7 @@ export default function Proyectos() {
                   objectFit="contain"
                 />
               </Box>
-              <Stack justifyContent="center" >
+              <Stack justifyContent="center"  >
                 <Text
                   color={"#cf2e2e"}
                   textTransform={"uppercase"}
@@ -93,6 +95,7 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "300px", md: "400px" }}
+              border="5px solid black"
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -159,6 +162,7 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "300px", md: "400px" }}
+              border="5px solid black"
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
