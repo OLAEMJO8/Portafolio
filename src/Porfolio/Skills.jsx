@@ -24,7 +24,7 @@ import {
   FaFire,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiChakraui } from "react-icons/si";
+import { SiTailwindcss, SiChakraui, SiRedux , SiPostgresql, SiFirebase} from "react-icons/si";
 
 function Skills() {
   const technologies = [
@@ -33,11 +33,11 @@ function Skills() {
     { icon: FaHtml5, name: "HTML5" },
     { icon: FaCss3, name: "CSS3" },
     { icon: FaNode, name: "Node.js" },
-    { icon: FaCode, name: "Redux" },
-    { icon: FaDatabase, name: "PostgreSQL" },
+    { icon: SiRedux, name: "Redux" },
+    { icon: SiPostgresql, name: "PostgreSQL" },
     { icon: SiChakraui, name: "Chakraui" },
     { icon: SiTailwindcss, name: "Tailwindcss" },
-    { icon: FaFire, name: "Firebase" },
+    { icon: SiFirebase, name: "Firebase" },
   ];
 
   return (
