@@ -30,33 +30,36 @@ const Navbar = ({
             <Button
               onClick={scrollToContact}
               variant="outline"
-              color={"white"}
-              _hover={{ bg: "#4AAC95" }}
-              
+              color={"black"}
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
             >
               Contacto
             </Button>
             <Button
               onClick={scrollToTechSkills}
               variant="outline"
-              color={"white"}
-              _hover={{ bg: "#4AAC95" }}
+              color={"black"}
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
             >
               Tech Skills
             </Button>
             <Button
               onClick={scrollToSoftSkills}
               variant="outline"
-              color={"white"}
-              _hover={{ bg: "#4AAC95" }}
+              color={"black"}
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
             >
               Soft Skills
             </Button>
             <Button
               onClick={scrollToProyectos}
               variant="outline"
-              color={"white"}
-              _hover={{ bg: "#4AAC95" }}
+              color={"black"}
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
             >
               Proyectos
             </Button>
@@ -75,8 +78,10 @@ const Navbar = ({
               aria-label="Open menu"
               fontSize="20px"
               variant="outline"
-              color="white"
-              bg={"#4AAC95"}
+              // colorScheme="black"
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               icon={<AiOutlineMenu />}
               onClick={mobileNav.onOpen}
             />
@@ -94,7 +99,7 @@ const Navbar = ({
             p={2}
             pb={4}
             m={2}
-            color="white"
+            color="black"
             spacing={3}
             rounded="sm"
             shadow="sm"
@@ -103,42 +108,43 @@ const Navbar = ({
               aria-label="Close menu"
               onClick={mobileNav.onClose}
               variant="outline"
-              color="white"
-              bg={"#4AAC95"}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
             />
 
             <Button
               variant="outline"
-              color="white"
-              bg={"#4AAC95"}
-              _hover={{ bg: "#white" }}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               onClick={scrollToContact}
             >
               Contacto
             </Button>
             <Button
               variant="outline"
-              color="white"
-              bg={"#4AAC95"}
-              _hover={{ bg: "white" }}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               onClick={scrollToTechSkills}
             >
               Tech Skills
             </Button>
             <Button
               variant="outline"
-              color="white"
-              bg={"#4AAC95"}
-              _hover={{ bg: "white" }}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               onClick={scrollToSoftSkills}
             >
               Soft Skills
             </Button>
             <Button
               variant="outline"
-              color="white"
-              bg={"#4AAC95"}
-              _hover={{ bg: "white" }}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               onClick={scrollToProyectos}
             >
               Proyectos

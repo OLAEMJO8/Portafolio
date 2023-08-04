@@ -40,31 +40,24 @@ export default function Card2() {
               "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
             }
           />
-           <Text
-            textTransform="uppercase"
-            // fontSize={{ base: "md", md: "3.75rem" }}
-            fontSize={{ base: "4rem", md: "6rem" }}
-            color={"white"}
-            justifyContent="center"
+            <Heading
+            as="h2"
+            size="xl"
             textAlign="center"
-            // fontWeight="bold"
+            mb="4"
+            bgClip="text"
+            textTransform="uppercase"
+            color={"#cf2e2e"}
             fontFamily="Bebas Neue, sans-serif"
-            lineHeight="1"
-            spacing="7"
-            // style={{ fontSize: "10.5rem" }}
+            fontSize={{ base: "3rem", md: "4rem" }}
+            lineHeight="2"
           >
             Maria Jose Olaechea
-          </Text>
-          {/* <Text
-            fontSize={{ base: "2xl", md: "4xl" }}
-            color={"white"}
-            fontFamily="Lato, sans-serif"
-          >
-            Maria Jose Olaechea
-          </Text> */}
-          {/* <Text
+          </Heading>
+{/*         
+          <Text
             fontWeight={600}
-            color={"white"}
+            color={"black"}
             fontSize={{ base: "md", md: "xl" }}
             mb={4}
             fontFamily="Lato, sans-serif"
@@ -74,7 +67,7 @@ export default function Card2() {
           <Text
             fontFamily="Lato, sans-serif"
             textAlign={"center"}
-            color={"white"}
+            color={"black"}
             fontSize={{ base: "2xl", md: "2xl" }}
           >
             Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS ||
@@ -98,11 +91,12 @@ export default function Card2() {
               // rounded={'3xl'}
             
               variant="outline"
-              color={"white"}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               as="a"
               target="_blank"
               onClick={() => (window.location.href = `mailto:${emailAddress}`)}
-              _hover={{ bg: "teal.500" }}
             >
               Email
             </Button>
@@ -115,10 +109,11 @@ export default function Card2() {
               fontSize={{ base: "md", md: "md" }}
               // rounded={"full"}
               variant="outline"
-              color={"white"}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               mt={{ base: 4, md: 0 }}
               fontFamily="Lato, sans-serif"
-              _hover={{ bg: "teal.500" }}
             >
               LinkedIn
             </Button>
@@ -131,10 +126,11 @@ export default function Card2() {
               fontSize={{ base: "md", md: "md" }}
               // rounded={"full"}
               variant="outline"
-              color={"white"}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#cf2e2e" }}
               fontFamily="Lato, sans-serif"
               mt={{ base: 4, md: 0 }}
-              _hover={{ bg: "teal.500" }}
             >
               GitHub
             </Button>

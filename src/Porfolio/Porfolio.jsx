@@ -59,7 +59,8 @@ const Porfolio = () => {
 
   return (
     <Box
-      backgroundImage={`url(${fondo})`}
+      // backgroundImage={`url(${fondo})`}
+      backgroundColor={'whiteAlpha.800'}
       bgSize="cover"
       // bgPosition="center"
       bgRepeat="no-repeat"
@@ -111,7 +112,7 @@ const Porfolio = () => {
           icon={<FaArrowCircleUp />}
           onClick={scrollTop}
           size="lg"
-          bg="teal.500"
+          bg="#cf2e2e"
           position="fixed"
           bottom="50px"
           right="50px"

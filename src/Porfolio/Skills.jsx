@@ -51,7 +51,7 @@ function Skills() {
             mb="4"
             bgClip="text"
             textTransform="uppercase"
-            color={"white"}
+            color={'#cf2e2e'}
             fontFamily="Bebas Neue, sans-serif"
             // fontSize={{ base: "4xl", md: "6rem" }}
             fontSize={{ base: "7xl", md: "8rem" }}
@@ -63,7 +63,7 @@ function Skills() {
             fontSize={{ base: "xl", md: "xl" }}
             textAlign="center"
             mb="8"
-            color="white"
+            color="black"
           >
             ReactJS || ReduxJS || Tailwind CSS || GitFlow ||
             <br />
@@ -91,7 +91,7 @@ function Skills() {
                   <Icon
                     as={IconComponent}
                     boxSize={{ base: "80px", sm: "80px", md: "90px" }}
-                    color="white"
+                    color="black"
                   />
                 </Box>
               </Tooltip>

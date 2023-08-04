@@ -17,18 +17,6 @@ export default function Proyectos() {
   return (
     <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
       <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
-        {/* <Heading
-          as="h2"
-          size="xl"
-          textAlign="center"
-          mb="4"
-          bgClip="text"
-          textTransform="uppercase"
-          color={"white"}
-          fontFamily="Lato, sans-serif"
-        >
-          Proyectos
-        </Heading> */}
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
           <Link
             as="a"
@@ -40,7 +28,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "400px", md: "650px" }}
+              h={{ base: "300px", md: "400px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -60,27 +48,27 @@ export default function Proyectos() {
                   objectFit="contain"
                 />
               </Box>
-              <Stack>
+              <Stack justifyContent="center" >
                 <Text
-                  color={"purple.200"}
+                  color={"#cf2e2e"}
                   textTransform={"uppercase"}
                   fontWeight={800}
-                  fontSize={{ base: "md", md: "lg" }}
+                  fontSize={{ base: "xl", md: "2xl" }}
                   letterSpacing={1.1}
-                  fontFamily="Lato, sans-serif"
+                  fontFamily="Rotobo, sans-serif"
                 >
                   PORTAFOLIO
                 </Text>
                 <Heading
-                  color={"white"}
-                  fontSize={{ base: "xl", md: "2xl" }}
+                  color={"black"}
+                  fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Portafolio personal
                 </Heading>
-                <Text
+                {/* <Text
                   fontFamily="Lato, sans-serif"
-                  color={"white"}
+                  color={"black"}
                   fontSize={{ base: "sm", md: "md" }}
                 >
                   Este portafolio cuenta un poco de mi, mis skills, mis
@@ -90,7 +78,7 @@ export default function Proyectos() {
                   Si estás buscando una desarrolladora apasionada, proactiva y
                   con ganas de seguir aprendiendo, ¡no dudes en conectarte
                   conmigo!
-                </Text>
+                </Text> */}
               </Stack>
             </Box>
           </Link>
@@ -104,7 +92,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "400px", md: "650px" }}
+              h={{ base: "300px", md: "400px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -124,26 +112,26 @@ export default function Proyectos() {
                   objectFit="contain"
                 />
               </Box>
-              <Stack>
+              <Stack justifyContent="center" >
                 <Text
-                  color={"purple.200"}
+                  color={"#cf2e2e"}
                   textTransform={"uppercase"}
                   fontWeight={800}
-                  fontFamily="Lato, sans-serif"
-                  fontSize={{ base: "md", md: "lg" }}
+                  fontFamily="Rotobo, sans-serif"
+                  fontSize={{ base: "xl", md: "2xl" }}
                   letterSpacing={1.1}
                 >
                   PROFINDER
                 </Text>
                 <Heading
-                  color={"white"}
-                  fontSize={{ base: "xl", md: "2xl" }}
+                  color={"black"}
+                  fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Proyecto Final bootcamp Henry
                 </Heading>
-                <Text
-                  color={"white"}
+                {/* <Text
+                  color={"black"}
                   fontFamily="Lato, sans-serif"
                   fontSize={{ base: "sm", md: "md" }}
                 >
@@ -155,7 +143,7 @@ export default function Proyectos() {
                   Los usuarios clientes pueden consultar estas publicaciones
                   según su ubicación y establecer contacto directo con los
                   prestadores de servicios para contratarlos.
-                </Text>
+                </Text> */}
               </Stack>
             </Box>
           </Link>
@@ -170,7 +158,7 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "400px", md: "650px" }}
+              h={{ base: "300px", md: "400px" }}
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -189,25 +177,25 @@ export default function Proyectos() {
                   objectFit="contain"
                 />
               </Box>
-              <Stack>
+              <Stack justifyContent="center" >
                 <Text
-                  color={"purple.200"}
+                  color={"#cf2e2e"}
                   textTransform={"uppercase"}
                   fontWeight={800}
-                  fontSize={{ base: "md", md: "lg" }}
+                  fontSize={{ base: "xl", md: "2xl" }}
                   letterSpacing={1.1}
-                  fontFamily="Lato, sans-serif"
+                  fontFamily="Rotobo, sans-serif"
                 >
                   Drivers
                 </Text>
                 <Heading
-                  color={"white"}
-                  fontSize={{ base: "xl", md: "2xl" }}
+                  color={"black"}
+                  fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Proyecto Individual bootcamp Henry
                 </Heading>
-                <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
+                {/* <Text color={"black"} fontSize={{ base: "sm", md: "md" }}>
                   Visualización de cards de corredores, con la posibilidad de
                   filtrar, ordenarlos, buscar uno en específico a través de la
                   barra de búsqueda y se podrá crear un nuevo corredor a través
@@ -215,7 +203,7 @@ export default function Proyectos() {
                   <br />
                   Creada usando JavaScript, CSS, React, Redux, PostgreSQL,
                   Express, Sequelize.
-                </Text>
+                </Text> */}
               </Stack>
             </Box>
           </Link>
