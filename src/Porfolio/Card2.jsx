@@ -39,8 +39,10 @@ export default function Card2() {
             src={
               "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
             }
+            mb="20px" 
           />
             <Heading
+            
             as="h2"
             size="xl"
             textAlign="center"
@@ -50,7 +52,7 @@ export default function Card2() {
             color={"#cf2e2e"}
             fontFamily="Bebas Neue, sans-serif"
             fontSize={{ base: "3rem", md: "4rem" }}
-            lineHeight="2"
+            lineHeight="1"
           >
             Maria Jose Olaechea
           </Heading>
