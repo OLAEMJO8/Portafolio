@@ -60,7 +60,7 @@ export default function Proyectos() {
                   PORTAFOLIO
                 </Text>
                 <Heading
-                  color={"black"}
+                  color={"white"}
                   fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
@@ -68,7 +68,7 @@ export default function Proyectos() {
                 </Heading>
                 {/* <Text
                   fontFamily="Lato, sans-serif"
-                  color={"black"}
+                  color={"white"}
                   fontSize={{ base: "sm", md: "md" }}
                 >
                   Este portafolio cuenta un poco de mi, mis skills, mis
@@ -124,14 +124,14 @@ export default function Proyectos() {
                   PROFINDER
                 </Text>
                 <Heading
-                  color={"black"}
+                  color={"white"}
                   fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Proyecto Final bootcamp Henry
                 </Heading>
                 {/* <Text
-                  color={"black"}
+                  color={"white"}
                   fontFamily="Lato, sans-serif"
                   fontSize={{ base: "sm", md: "md" }}
                 >
@@ -162,7 +162,7 @@ export default function Proyectos() {
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
-                bg={"black.100"}
+                bg={"white.100"}
                 mt={-6}
                 mx={-6}
                 mb={6}
@@ -189,13 +189,13 @@ export default function Proyectos() {
                   Drivers
                 </Text>
                 <Heading
-                  color={"black"}
+                  color={"white"}
                   fontSize={{ base: "md", md: "lg" }}
                   fontFamily="Lato, sans-serif"
                 >
                   Proyecto Individual bootcamp Henry
                 </Heading>
-                {/* <Text color={"black"} fontSize={{ base: "sm", md: "md" }}>
+                {/* <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
                   Visualización de cards de corredores, con la posibilidad de
                   filtrar, ordenarlos, buscar uno en específico a través de la
                   barra de búsqueda y se podrá crear un nuevo corredor a través
