@@ -118,7 +118,7 @@ const Porfolio = () => {
           bottom="50px"
           right="50px"
           zIndex="999"
-          _hover={{ bg: "white" }}
+          _hover={{ bg: "#092327" }}
         />
       )}
     </Box>

@@ -60,7 +60,7 @@ export default function Card2() {
             bgClip="text"
             textTransform="uppercase"
             color="white"
-            // color={"#8f889c"}
+            // color={"#092327"}
             fontFamily="Bebas Neue, sans-serif"
             fontSize={{ base: "3rem", md: "4rem" }}
             lineHeight="1"
@@ -96,7 +96,7 @@ export default function Card2() {
               // variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#8f889c" }}
+             _hover={{ bg: "#092327", color: "white" }}
               as="a"
               target="_blank"
               onClick={() => (window.location.href = `mailto:${emailAddress}`)}
@@ -114,7 +114,7 @@ export default function Card2() {
               // variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#8f889c" }}
+             _hover={{ bg: "#092327", color: "white" }}
               mt={{ base: 4, md: 0 }}
               fontFamily="Lato, sans-serif"
             >
@@ -130,7 +130,7 @@ export default function Card2() {
               // variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#8f889c" }}
+             _hover={{ bg: "#092327", color: "white" }}
               fontFamily="Lato, sans-serif"
               mt={{ base: 4, md: 0 }}
             >
