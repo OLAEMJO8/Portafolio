@@ -15,7 +15,7 @@ import {
 
 export default function Proyectos() {
   return (
-    <Flex py={6} height="100vh" alignItems="center" justifyContent="center">
+    <Flex py={6}  alignItems="center" justifyContent="center">
       <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
           <Link

@@ -46,7 +46,7 @@ function Skills() {
         maxW={"1000px"}
         w={"100%"}
         mt="60px"
-        position="relative"
+        position="absolute"
         
       >
         <VStack spacing="6" lineHeight="1">
