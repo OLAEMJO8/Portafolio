@@ -32,7 +32,7 @@ const Navbar = ({
               variant="outline"
               color={"black"}
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
              
             
             >
@@ -43,7 +43,7 @@ const Navbar = ({
               variant="outline"
               color={"black"}
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
             >
               Tech Skills
             </Button>
@@ -52,7 +52,7 @@ const Navbar = ({
               variant="outline"
               color={"black"}
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
             >
               Soft Skills
             </Button>
@@ -61,7 +61,7 @@ const Navbar = ({
               variant="outline"
               color={"black"}
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
             >
               Proyectos
             </Button>
@@ -83,7 +83,7 @@ const Navbar = ({
               // colorScheme="black"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
               icon={<AiOutlineMenu />}
               onClick={mobileNav.onOpen}
             />
@@ -112,14 +112,14 @@ const Navbar = ({
               variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
             />
 
             <Button
               variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
               onClick={scrollToContact}
             >
               Contacto
@@ -128,7 +128,7 @@ const Navbar = ({
               variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
               onClick={scrollToTechSkills}
             >
               Tech Skills
@@ -137,7 +137,7 @@ const Navbar = ({
               variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
               onClick={scrollToSoftSkills}
             >
               Soft Skills
@@ -146,7 +146,7 @@ const Navbar = ({
               variant="outline"
               color="black"
               bg={"white"}
-              _hover={{ bg: "#cf2e2e" }}
+              _hover={{ bg: "#8f889c" }}
               onClick={scrollToProyectos}
             >
               Proyectos

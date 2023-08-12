@@ -46,7 +46,7 @@ function SoftSkills() {
             mb="4"
             bgClip="text"
             textTransform="uppercase"
-            color={"#cf2e2e"}
+            color={"#1a7557"}
             fontFamily="Bebas Neue, sans-serif"
             fontSize={{ base: "7xl", md: "8rem" }}
           >

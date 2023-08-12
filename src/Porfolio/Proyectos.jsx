@@ -28,8 +28,8 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "400px" }}
-              border="5px solid black"
+              h={{ base: "450px", md: "600px" }}
+             
              
             >
               <Box
@@ -52,7 +52,7 @@ export default function Proyectos() {
               </Box>
               <Stack justifyContent="center"  >
                 <Text
-                  color={"#cf2e2e"}
+                  color={"#1a7557"}
                   textTransform={"uppercase"}
                   fontWeight={800}
                   fontSize={{ base: "xl", md: "2xl" }}
@@ -68,7 +68,7 @@ export default function Proyectos() {
                 >
                   Portafolio personal
                 </Heading>
-                {/* <Text
+                <Text
                   fontFamily="Lato, sans-serif"
                   color={"white"}
                   fontSize={{ base: "sm", md: "md" }}
@@ -80,7 +80,7 @@ export default function Proyectos() {
                   Si estás buscando una desarrolladora apasionada, proactiva y
                   con ganas de seguir aprendiendo, ¡no dudes en conectarte
                   conmigo!
-                </Text> */}
+                </Text>
               </Stack>
             </Box>
           </Link>
@@ -94,8 +94,8 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "400px" }}
-              border="5px solid black"
+              h={{ base: "450px", md: "600px" }}
+             
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -117,7 +117,7 @@ export default function Proyectos() {
               </Box>
               <Stack justifyContent="center" >
                 <Text
-                  color={"#cf2e2e"}
+                  color={"#1a7557"}
                   textTransform={"uppercase"}
                   fontWeight={800}
                   fontFamily="Rotobo, sans-serif"
@@ -133,7 +133,7 @@ export default function Proyectos() {
                 >
                   Proyecto Final bootcamp Henry
                 </Heading>
-                {/* <Text
+                <Text
                   color={"white"}
                   fontFamily="Lato, sans-serif"
                   fontSize={{ base: "sm", md: "md" }}
@@ -146,7 +146,7 @@ export default function Proyectos() {
                   Los usuarios clientes pueden consultar estas publicaciones
                   según su ubicación y establecer contacto directo con los
                   prestadores de servicios para contratarlos.
-                </Text> */}
+                </Text>
               </Stack>
             </Box>
           </Link>
@@ -161,8 +161,8 @@ export default function Proyectos() {
               rounded={"md"}
               p={6}
               overflow={"hidden"}
-              h={{ base: "300px", md: "400px" }}
-              border="5px solid black"
+              h={{ base: "450px", md: "600px" }}
+             
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -183,7 +183,7 @@ export default function Proyectos() {
               </Box>
               <Stack justifyContent="center" >
                 <Text
-                  color={"#cf2e2e"}
+                  color={"#1a7557"}
                   textTransform={"uppercase"}
                   fontWeight={800}
                   fontSize={{ base: "xl", md: "2xl" }}
@@ -199,7 +199,7 @@ export default function Proyectos() {
                 >
                   Proyecto Individual bootcamp Henry
                 </Heading>
-                {/* <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
+                <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
                   Visualización de cards de corredores, con la posibilidad de
                   filtrar, ordenarlos, buscar uno en específico a través de la
                   barra de búsqueda y se podrá crear un nuevo corredor a través
@@ -207,7 +207,7 @@ export default function Proyectos() {
                   <br />
                   Creada usando JavaScript, CSS, React, Redux, PostgreSQL,
                   Express, Sequelize.
-                </Text> */}
+                </Text>
               </Stack>
             </Box>
           </Link>
