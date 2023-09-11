@@ -20,7 +20,7 @@ export default function Proyectos() {
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
           <Link
             as="a"
-            href="https://github.com/OLAEMJO8/Portafolio"
+            href="https://github.com/OLAEMJO8/prueba_tecnica.git"
             target="_blank"
           >
             <Box
@@ -42,7 +42,7 @@ export default function Proyectos() {
                 <Image
                   // bg={"pink.50"}
                   src={
-                    "https://github.com/OLAEMJO8/Portafolio/raw/main/image.png"
+                    "https://github.com/OLAEMJO8/Portafolio/blob/main/Captura.PNG?raw=true"
                   }
                   alt="Example"
                   w="100%"
