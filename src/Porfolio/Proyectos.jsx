@@ -15,7 +15,7 @@ import {
 
 export default function Proyectos() {
   return (
-    <Flex py={6}  alignItems="center" justifyContent="center">
+    <Flex py={6} alignItems="center" justifyContent="center">
       <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
           <Link
@@ -29,8 +29,69 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "450px", md: "600px" }}
-             
-             
+
+
+            >
+              <Box
+                h={{ base: "150px", md: "200px" }}
+                mt={-6}
+                mx={-6}
+                mb={6}
+                pos={"relative"}
+              >
+                <Image
+                  // bg={"pink.50"}
+                  src={
+                    "https://github.com/OLAEMJO8/Portafolio/raw/main/image.png"
+                  }
+                  alt="Example"
+                  w="100%"
+                  h="100%"
+                  objectFit="contain"
+                />
+              </Box>
+              <Stack justifyContent="center"  >
+                <Text
+                  color={"#1a7557"}
+                  textTransform={"uppercase"}
+                  fontWeight={800}
+                  fontSize={{ base: "xl", md: "2xl" }}
+                  letterSpacing={1.1}
+                  fontFamily="Rotobo, sans-serif"
+                >
+                  PRUEBA TECNICA
+                </Text>
+
+                <Text
+                  fontFamily="Lato, sans-serif"
+                  color={"white"}
+                  fontSize={{ base: "sm", md: "md" }}
+
+                >
+
+                  El objetivo de la siguiente prueba fue medir la capacidad de análisis, y competencias de desarrollo de
+                  software y experiencia de usuario utilizando React y TailwindCss para estilado. Desarrolle el backend de la solución en forma de un API REST utilizando Node.
+
+
+                  <br />
+                  En esta opotunidad aprendi a usar por primera vez JSON Web Token (JWT) · Tailwind CSS · bcrypt · nodemailer.
+                </Text>
+              </Stack>
+            </Box>
+          </Link>
+          <Link
+            as="a"
+            href="https://github.com/OLAEMJO8/Portafolio"
+            target="_blank"
+          >
+            <Box
+              boxShadow={"2xl"}
+              rounded={"md"}
+              p={6}
+              overflow={"hidden"}
+              h={{ base: "450px", md: "600px" }}
+
+
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -61,13 +122,7 @@ export default function Proyectos() {
                 >
                   PORTAFOLIO
                 </Text>
-                <Heading
-                  color={"white"}
-                  fontSize={{ base: "md", md: "lg" }}
-                  fontFamily="Lato, sans-serif"
-                >
-                  Portafolio personal
-                </Heading>
+
                 <Text
                   fontFamily="Lato, sans-serif"
                   color={"white"}
@@ -84,6 +139,7 @@ export default function Proyectos() {
               </Stack>
             </Box>
           </Link>
+
           <Link
             as="a"
             href="https://github.com/OLAEMJO8/Profinder"
@@ -95,7 +151,7 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "450px", md: "600px" }}
-             
+
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -126,13 +182,7 @@ export default function Proyectos() {
                 >
                   PROFINDER
                 </Text>
-                <Heading
-                  color={"white"}
-                  fontSize={{ base: "md", md: "lg" }}
-                  fontFamily="Lato, sans-serif"
-                >
-                  Proyecto Final bootcamp Henry
-                </Heading>
+
                 <Text
                   color={"white"}
                   fontFamily="Lato, sans-serif"
@@ -162,7 +212,7 @@ export default function Proyectos() {
               p={6}
               overflow={"hidden"}
               h={{ base: "450px", md: "600px" }}
-             
+
             >
               <Box
                 h={{ base: "150px", md: "200px" }}
@@ -192,15 +242,9 @@ export default function Proyectos() {
                 >
                   Drivers
                 </Text>
-                <Heading
-                  color={"white"}
-                  fontSize={{ base: "md", md: "lg" }}
-                  fontFamily="Lato, sans-serif"
-                >
-                  Proyecto Individual bootcamp Henry
-                </Heading>
+
                 <Text color={"white"} fontSize={{ base: "sm", md: "md" }}>
-                  Visualización de cards de corredores, con la posibilidad de
+                  Proyecto Individual bootcamp Henry. Visualización de cards de corredores, con la posibilidad de
                   filtrar, ordenarlos, buscar uno en específico a través de la
                   barra de búsqueda y se podrá crear un nuevo corredor a través
                   de un formulario.

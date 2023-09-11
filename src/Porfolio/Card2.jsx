@@ -29,7 +29,7 @@ export default function Card2() {
     height: "100vh",
     alignItems: "center",
     justifyContent: "center",
-    position: "relative", 
+    position: "relative",
   };
   return (
     <Flex {...gradientBackground}>
@@ -91,17 +91,28 @@ export default function Card2() {
               flex={{ base: "row", md: "1" }}
               fontFamily="Lato, sans-serif"
               fontSize={{ base: "lg", md: "md" }}
-              // rounded={'3xl'}
-
-              // variant="outline"
               color="black"
               bg={"white"}
-             _hover={{ bg: "#092327", color: "white" }}
+              _hover={{ bg: "#092327", color: "white" }}
               as="a"
               target="_blank"
               onClick={() => (window.location.href = `mailto:${emailAddress}`)}
             >
               Email
+            </Button>
+            <Button
+              as="a"
+              href="https://drive.google.com/file/d/184RURG3YPNwbIoYycf5hN_b0NHAF0HTI/view?usp=sharing"
+              target="_blank"
+              flex={{ base: "row", md: "1" }}
+              fontSize={{ base: "md", md: "md" }}
+              color="black"
+              bg={"white"}
+              _hover={{ bg: "#092327", color: "white" }}
+              mt={{ base: 4, md: 0 }}
+              fontFamily="Lato, sans-serif"
+            >
+              Currículum
             </Button>
 
             <Button
@@ -110,11 +121,10 @@ export default function Card2() {
               target="_blank"
               flex={{ base: "row", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
-              // rounded={"full"}
-              // variant="outline"
+
               color="black"
               bg={"white"}
-             _hover={{ bg: "#092327", color: "white" }}
+              _hover={{ bg: "#092327", color: "white" }}
               mt={{ base: 4, md: 0 }}
               fontFamily="Lato, sans-serif"
             >
@@ -126,30 +136,16 @@ export default function Card2() {
               target="_blank"
               flex={{ base: "row", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
-              // rounded={"full"}
-              // variant="outline"
+
               color="black"
               bg={"white"}
-             _hover={{ bg: "#092327", color: "white" }}
+              _hover={{ bg: "#092327", color: "white" }}
               fontFamily="Lato, sans-serif"
               mt={{ base: 4, md: 0 }}
             >
               GitHub
             </Button>
-            {/* <Button
-              as="a"
-              href="https://www.soyhenry.com/"
-              target="_blank"
-              flex={1}
-              fontSize={{ base: "sm", md: "md" }}
-              rounded={"full"}
-              // variant="outline"
-              color={"white"}
-              mt={{ base: 4, md: 0 }}
-              fontFamily="Lato, sans-serif"
-            >
-              Henry
-            </Button> */}
+
           </Stack>
         </VStack>
       </Box>
