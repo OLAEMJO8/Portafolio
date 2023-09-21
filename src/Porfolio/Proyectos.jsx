@@ -42,7 +42,7 @@ export default function Proyectos() {
                 <Image
                  
                   src={
-                    "https://github.com/OLAEMJO8/Portafolio/blob/main/Captura.PNG?raw=true"
+                    "https://github.com/OLAEMJO8/Portafolio/blob/main/vue.png?raw=true"
                   }
                   alt="Example"
                   w="100%"
@@ -59,7 +59,7 @@ export default function Proyectos() {
                   letterSpacing={1.1}
                   fontFamily="Rotobo, sans-serif"
                 >
-                  APRENDIENDO VUE.JS
+                 CONTADOR VUE.JS
                 </Text>
 
                 <Text
