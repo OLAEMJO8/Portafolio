@@ -18,6 +18,63 @@ export default function Proyectos() {
     <Flex py={6} alignItems="center" justifyContent="center">
       <Box maxW={"1000px"} w={"100%"} mt="60px" position="relative">
         <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={8}>
+        <Link
+            as="a"
+            href="https://github.com/OLAEMJO8/primervue.git"
+            target="_blank"
+          >
+            <Box
+              boxShadow={"2xl"}
+              rounded={"md"}
+              p={6}
+              overflow={"hidden"}
+              h={{ base: "450px", md: "600px" }}
+
+
+            >
+              <Box
+                h={{ base: "150px", md: "200px" }}
+                mt={-6}
+                mx={-6}
+                mb={6}
+                pos={"relative"}
+              >
+                <Image
+                 
+                  src={
+                    "https://github.com/OLAEMJO8/Portafolio/blob/main/Captura.PNG?raw=true"
+                  }
+                  alt="Example"
+                  w="100%"
+                  h="100%"
+                  objectFit="contain"
+                />
+              </Box>
+              <Stack justifyContent="center"  >
+                <Text
+                  color={"#1a7557"}
+                  textTransform={"uppercase"}
+                  fontWeight={800}
+                  fontSize={{ base: "xl", md: "2xl" }}
+                  letterSpacing={1.1}
+                  fontFamily="Rotobo, sans-serif"
+                >
+                  APRENDIENDO VUE.JS
+                </Text>
+
+                <Text
+                  fontFamily="Lato, sans-serif"
+                  color={"white"}
+                  fontSize={{ base: "sm", md: "md" }}
+
+                >
+
+                 Aprendiendo Vue.js, el ciclo de vida de un componente, estados,eventos, directivas, componentes, rutas, etc.
+
+                </Text>
+              </Stack>
+            </Box>
+          </Link>
           <Link
             as="a"
             href="https://github.com/OLAEMJO8/prueba_tecnica.git"
