@@ -103,7 +103,7 @@ export default function Card2() {
             </Button>
             <Button
               as="a"
-              href="https://drive.google.com/file/d/184RURG3YPNwbIoYycf5hN_b0NHAF0HTI/view?usp=sharing"
+              href="https://docs.google.com/document/d/1vG9XJ_S8s1lPmGTQfFhqOL13o03_xJdwsi8ksKNEMrw/edit?usp=sharing"
               target="_blank"
               flex={{ base: "row", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
