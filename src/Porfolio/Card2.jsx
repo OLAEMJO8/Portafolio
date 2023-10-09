@@ -48,7 +48,7 @@ export default function Card2() {
             justifyContent="center"
             alignItems="center"
             src={
-              "https://media.licdn.com/dms/image/D4D03AQFyeiSskNwV-A/profile-displayphoto-shrink_200_200/0/1690857277770?e=1696464000&v=beta&t=-ruPpiWgeJwDPMYrVaNe6hTqeKUAZ5sBiFE6YPpISzg"
+              "https://github.com/OLAEMJO8/Portafolio/blob/main/perfil.JPG?raw=true"
             }
             mb="20px"
           />
