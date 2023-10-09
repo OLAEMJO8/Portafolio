@@ -51,7 +51,7 @@ export default function Card2() {
               "https://github.com/OLAEMJO8/Portafolio/blob/main/perfil.JPG?raw=true"
             }
             mb="20px"
-            boxSize="250px"
+            boxSize="225px"
           />
           <Heading
             as="h2"
