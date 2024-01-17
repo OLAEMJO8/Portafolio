@@ -75,7 +75,7 @@ export default function Card2() {
             color="white"
             fontSize={{ base: "2xl", md: "2xl" }}
           >
-            Full-Stack Developer || ReactJS || ReduxJS || Tailwind CSS ||
+            Full-Stack Developer || ReactJS || ReduxJS || Vue || Tailwind CSS ||
             Node.js || Express.js || SQL || PostgreSQL || Sequelize
           </Text>
 
@@ -103,7 +103,7 @@ export default function Card2() {
             </Button>
             <Button
               as="a"
-              href="https://docs.google.com/document/d/1vG9XJ_S8s1lPmGTQfFhqOL13o03_xJdwsi8ksKNEMrw/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1K8h0wP0ZaxILQuQKbv4nygzYPAHVUjD1/view?usp=sharing"
               target="_blank"
               flex={{ base: "row", md: "1" }}
               fontSize={{ base: "md", md: "md" }}
